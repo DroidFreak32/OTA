@@ -7,7 +7,7 @@
 # * Multiple devices can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically
 #
-ota_url=https://raw.githubusercontent.com/eldainosor/OTA/RR/rr_dsr.xml
+ota_url=https://raw.githubusercontent.com/DroidFreak32/OTA/RR/rr_op3sul.xml
 release_type=Stable
 device_name=ro.rr.device
  
