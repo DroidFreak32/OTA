@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <surnia>
-            <Filename>Tipsy-surnia-7.1.1.Jupiler-v5.3-20170418-1549.zip</Filename>
+            <Filename>Tipsy-surnia-7.1.1.Jupiler-v5.3-20170418-2217.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Tipsy builds">https://www.androidfilehost.com/?fid=817550096634762976</RomUrl>
+                description="Download Tipsy builds">https://www.androidfilehost.com/?fid=745425885120725329</RomUrl>
            <GappsUrl
                 id="gapps"
                 title="Gapps"
