@@ -2,15 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <surnia>
-            <Filename>Tipsy-surnia-7.1.1.Jupiler-v5.3-20170413-1051.zip</Filename>
+            <Filename>Tipsy-surnia-7.1.1.Jupiler-v5.3-20170418-1549.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download SlimSaber builds">https://www.androidfilehost.com/?fid=457095661767153476</RomUrl>
+                description="Download Tipsy builds">https://www.androidfilehost.com/?fid=817550096634762976</RomUrl>
            <GappsUrl
                 id="gapps"
                 title="Gapps"
-                description="Download latest SlimGapps">http://opengapps.org</GappsUrl>
+                description="Download latest Gapps">http://opengapps.org</GappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
