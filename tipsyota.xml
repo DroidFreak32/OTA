@@ -1,1 +1,20 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <surnia>
+            <Filename>Tipsy-surnia-7.1.1.Jupiler-v5.3-20170418-1549.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download Tipsy builds">https://www.androidfilehost.com/?fid=817550096634762976</RomUrl>
+           <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest Gapps">http://opengapps.org</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit Tipsy Surnia thread">https://forum.xda-developers.com/moto-e-2015/development/rom-tipsyos-02-13-t3555782/post71010141#post71010141</XDAUrl>
+	</surnia>
+    </Stable>
+</SlimOTA>
