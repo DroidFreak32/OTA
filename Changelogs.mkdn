@@ -1,0 +1,62 @@
+
+ ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
+
+
+ ▼ 04/26/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ b923f79 op3: Update CPU performance settings
+
+ ▪ project frameworks/opt/telephony/
+ ▪ bc43228 Create cdma dummy apns.
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 99649a5 Don't show market links if market app is protected
+
+ ▪ project vendor/oneplus/
+ ▪ bc31dc3 oneplus3: Update to OxygenOS OB5/OB14 blobs
+
+ ▼ 04/25/2017
+
+
+ ▪ project packages/apps/DUI/
+ ▪ 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
+
+ ▪ project packages/apps/Dialer/
+
+ ▼ 04/24/2017
+
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ b1b3b09 oneplus3_defconfig: Disable Test I/O scheduler
+
+ ▪ project packages/apps/Snap/
+ ▪ c68e34c Snap: Set default sharpness setting back to 2
+
+ ▪ project patcher/
+ ▪ 24f7c68 Update 'Don't consume home key press' patch
+
+ ▼ 04/23/2017
+
+
+ ▪ project external/stagefright-plugins/
+ ▪ 3846013 Revert "codecs: Disable AC3/EAC3"
+
+
+ ▼ 04/22/2017
+
+
+ ▪ project hardware/qcom/fm/
+ ▪ 51e71fd libfm_jni: Fix strchr implicit char* typecast in ConfFileParser
+
+
+ ▼ 04/20/2017
+
+
+ ▪ project android/
+ ▪ 30d3069 crowdin: fix sync
+
