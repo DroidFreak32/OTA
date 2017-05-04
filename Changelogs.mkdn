@@ -1,5 +1,131 @@
-
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
+
+
+ ▼ 05/03/2017
+
+
+ ▪ project bionic/
+ ▪ 22d6b5b libc: ARM: Add 32-bit Kryo memcpy
+
+ ▪ project bootable/recovery/
+ ▪ 8011e66 recovery: Fix UI freezing
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 2a91ed0 Revert "op3: Remove startOffsetMs and fix highspeed recording"
+ ▪ 21e6ea2 Squashed revert of HAL3 re-enable
+
+ ▪ project frameworks/base/
+ ▪ a2925b4 Base:WeatherView Should go on error not Entire View
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 46f2ae2 input: synaptics: s1302: Don't directly access user memory in fw_write
+
+ ▪ project packages/apps/DUI/
+ ▪ aba99d5 Fix Fling swipe up gesture being hard to trigger
+
+ ▪ project packages/apps/Settings/
+ ▪ a2cd85e update a string
+
+ ▪ project packages/services/OmniJaws/
+ ▪ aa857b5 OmniJaws: come here all you hidden bugs into the bright light
+
+ ▼ 05/02/2017
+
+
+ ▪ project android/
+ ▪ 7c6e872 manifests: 7.1.2_r2-> r8
+
+ ▪ project build/
+ ▪ fab5d1d Merge tag 'android-7.1.2_r8' into nougat
+
+ ▪ project external/boringssl/
+ ▪ 8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 24697a3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ▪ project frameworks/native/
+ ▪ c544fcc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+ ▪ project packages/apps/Dialer/
+ ▪ b239b70 Dialer: InCallUI: Enable Sustained Performance Mode We should make sure that thermals are stable during active calls, so we should enable Sustained Performance Mode for the InCallActivity.
+
+ ▪ project packages/apps/Jelly/
+ ▪ 2f41ee6 Jelly: expose toolbar elevation
+
+ ▪ project packages/apps/Messaging/
+ ▪ 9ea833a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
+
+ ▪ project system/bt/
+ ▪ 85d4e42 Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project system/core/
+ ▪ 259efc1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project vendor/cm/
+ ▪ 137c340 cm: nuke browser, welcome jelly
+
+ ▼ 05/01/2017
+
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project system/extras/su/
+ ▪ 7344440 su: Don't start daemon for adb only mode
+
+ ▼ 04/30/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ e498231 op3: Actually re-enable HAL3 capabilities
+ ▪ 4e703ca op3: Bring back libqti-perfd-client.so
+
+ ▪ project packages/apps/Snap/
+ ▪ 77b8403 Snap: Silence face detection log spam
+
+ ▪ project vendor/oneplus/
+ ▪ 1b4e311 op3: Add back libqti-perfd-client.so
+
+ ▼ 04/29/2017
+
+
+ ▪ project device/oppo/common/
+ ▪ a141dca recovery: Use project pathmap for recovery
+
+ ▪ project device/qcom/common/
+ ▪ 0dc3673 recovery: Use project pathmap for recovery
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▪ project system/extras/
+ ▪ f30ae7f Use project pathmap for recovery
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+
+ ▼ 04/28/2017
+
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 40e3809 JobService: Expose configuration shim refresh delay
+
+ ▼ 04/27/2017
+
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 29b0b0a Trebuchet: lineage launcher icon
 
 
  ▼ 04/26/2017
