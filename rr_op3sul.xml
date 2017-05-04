@@ -11,6 +11,11 @@
                 id="changelog"
                 title="Official Changelog"
                 description="View RR changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+            <ChangelogUrl
+                id="uchangelog"
+                title="UnOfficial Changelog"
+                description="View Sultanized RR changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+
             <GappsUrl
                 id="gapps"
                 title="Gapps"
