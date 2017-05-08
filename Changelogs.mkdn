@@ -1,39 +1,67 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 05/03/2017
+ ▼ 05/08/2017
 
-
- ▪ project bionic/
- ▪ 22d6b5b libc: ARM: Add 32-bit Kryo memcpy
-
- ▪ project bootable/recovery/
- ▪ 8011e66 recovery: Fix UI freezing
-
- ▪ project device/oneplus/oneplus3/
- ▪ 2a91ed0 Revert "op3: Remove startOffsetMs and fix highspeed recording"
- ▪ 21e6ea2 Squashed revert of HAL3 re-enable
 
  ▪ project frameworks/base/
- ▪ a2925b4 Base:WeatherView Should go on error not Entire View
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 46f2ae2 input: synaptics: s1302: Don't directly access user memory in fw_write
-
- ▪ project packages/apps/DUI/
- ▪ aba99d5 Fix Fling swipe up gesture being hard to trigger
 
  ▪ project packages/apps/Settings/
- ▪ a2cd85e update a string
+ ▪ 372d14f Add missing string
 
  ▪ project packages/services/OmniJaws/
- ▪ aa857b5 OmniJaws: come here all you hidden bugs into the bright light
 
- ▼ 05/02/2017
+ ▪ project patcher/
+ ▪ 274b2b5 Revert "Add patch to white-list HAL3 camera apps"
+
+ ▼ 05/07/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 85516b4 op3: Disable tethering provisioning for all carriers
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 7bdd030 input: synaptics: s3320: Fix type##_read_func function
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ b0b0b4a ResurrectionOTA: squash all translations
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 20ea10d ROMStats: modify for ResurrectionRemix
+
+ ▪ project vendor/oneplus/
+ ▪ 82e702c op3: Update to OxygenOS OB6/OB15 blobs
+
+ ▼ 05/06/2017
+
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project system/bt/
+ ▪ 0ebf465 Do not include the trailing NULL from the C-String in the SDP service name
+
+ ▼ 05/05/2017
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 2006774 Jelly: no need of using srcCompat for imageviews
+
+ ▼ 05/04/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 616bf9a recovery: Fix event system
+
+ ▼ 05/03/2017
 
 
  ▪ project android/
  ▪ 7c6e872 manifests: 7.1.2_r2-> r8
+
+ ▪ project bionic/
+ ▪ 22d6b5b libc: ARM: Add 32-bit Kryo memcpy
 
  ▪ project build/
  ▪ fab5d1d Merge tag 'android-7.1.2_r8' into nougat
@@ -47,142 +75,17 @@
  ▪ project frameworks/native/
  ▪ c544fcc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
 
- ▪ project packages/apps/Dialer/
- ▪ b239b70 Dialer: InCallUI: Enable Sustained Performance Mode We should make sure that thermals are stable during active calls, so we should enable Sustained Performance Mode for the InCallActivity.
-
- ▪ project packages/apps/Jelly/
- ▪ 2f41ee6 Jelly: expose toolbar elevation
+ ▪ project packages/apps/DUI/
+ ▪ aba99d5 Fix Fling swipe up gesture being hard to trigger
 
  ▪ project packages/apps/Messaging/
  ▪ 9ea833a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
 
- ▪ project system/bt/
- ▪ 85d4e42 Merge tag 'android-7.1.2_r8' into cm-14.1
+ ▪ project packages/apps/Trebuchet/
+ ▪ c69c736 Trebuchet: Add Jelly to hotseat
 
  ▪ project system/core/
  ▪ 259efc1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
 
  ▪ project vendor/cm/
  ▪ 137c340 cm: nuke browser, welcome jelly
-
- ▼ 05/01/2017
-
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project system/extras/su/
- ▪ 7344440 su: Don't start daemon for adb only mode
-
- ▼ 04/30/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ e498231 op3: Actually re-enable HAL3 capabilities
- ▪ 4e703ca op3: Bring back libqti-perfd-client.so
-
- ▪ project packages/apps/Snap/
- ▪ 77b8403 Snap: Silence face detection log spam
-
- ▪ project vendor/oneplus/
- ▪ 1b4e311 op3: Add back libqti-perfd-client.so
-
- ▼ 04/29/2017
-
-
- ▪ project device/oppo/common/
- ▪ a141dca recovery: Use project pathmap for recovery
-
- ▪ project device/qcom/common/
- ▪ 0dc3673 recovery: Use project pathmap for recovery
-
- ▪ project hardware/libhardware_legacy/
- ▪ ec33ac3 wifi: add firmware loader support for the non-LKM case
-
- ▪ project hardware/qcom/fm/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/Recorder/
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/resources/devicesettings/
-
- ▪ project system/extras/
- ▪ f30ae7f Use project pathmap for recovery
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
-
- ▼ 04/28/2017
-
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 40e3809 JobService: Expose configuration shim refresh delay
-
- ▼ 04/27/2017
-
-
- ▪ project packages/apps/Trebuchet/
- ▪ 29b0b0a Trebuchet: lineage launcher icon
-
-
- ▼ 04/26/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ b923f79 op3: Update CPU performance settings
-
- ▪ project frameworks/opt/telephony/
- ▪ bc43228 Create cdma dummy apns.
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
-
- ▪ project packages/apps/Trebuchet/
- ▪ 99649a5 Don't show market links if market app is protected
-
- ▪ project vendor/oneplus/
- ▪ bc31dc3 oneplus3: Update to OxygenOS OB5/OB14 blobs
-
- ▼ 04/25/2017
-
-
- ▪ project packages/apps/DUI/
- ▪ 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
-
- ▪ project packages/apps/Dialer/
-
- ▼ 04/24/2017
-
-
- ▪ project kernel/oneplus/msm8996/
- ▪ b1b3b09 oneplus3_defconfig: Disable Test I/O scheduler
-
- ▪ project packages/apps/Snap/
- ▪ c68e34c Snap: Set default sharpness setting back to 2
-
- ▪ project patcher/
- ▪ 24f7c68 Update 'Don't consume home key press' patch
-
- ▼ 04/23/2017
-
-
- ▪ project external/stagefright-plugins/
- ▪ 3846013 Revert "codecs: Disable AC3/EAC3"
-
-
- ▼ 04/22/2017
-
-
- ▪ project hardware/qcom/fm/
- ▪ 51e71fd libfm_jni: Fix strchr implicit char* typecast in ConfFileParser
-
-
- ▼ 04/20/2017
-
-
- ▪ project android/
- ▪ 30d3069 crowdin: fix sync
-
