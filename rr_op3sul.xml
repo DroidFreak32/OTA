@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus3>
-            <Filename>RR-N-v5.8.3-20170717-oneplus3.zip</Filename>
+            <Filename>RR-N-v5.8.3-20170725-oneplus3.zip</Filename>
             <RomUrl
                 id="afh"
                 title="ROM"
-                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=961840155545582636</RomUrl>
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=961840155545584487</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Official Changelog"
@@ -15,6 +15,14 @@
                 id="uchangelog"
                 title="UnOfficial Changelog"
                 description="View Sultanized RR changelog">https://raw.githubusercontent.com/DroidFreak32/OTA/RR/Changelogs.mkdn</ChangelogUrl>
+            <FirmwareUrl
+                id="firmware3"
+                title="Firmware - OP3 (TEST)"
+                description="Download the required firmware">https://www.androidfilehost.com/?fid=817550096634786168</FirmwareUrl>
+            <FirmwareUrl
+                id="firmware3t"
+                title="Firmware - OP3T (TEST)"
+                description="Download the required firmware">https://www.androidfilehost.com/?fid=889764386195916114</FirmwareUrl>
 
             <GappsUrl
                 id="gapps"
