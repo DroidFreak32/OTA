@@ -3,12 +3,20 @@
 
 
 August 1, 2017:
+
 ROM:
+
 *Latest upstream LineageOS changes
+
 *Updated proprietary libraries to OxygenOS OB11/OB20 (the firmware packages in the first post have been updated too)
+
 *Fixed front camera crashes when taking pictures outdoors or in good lighting
+
 *Switched to new LineageOS Gallery app
 
 Kernel:
+
 *Updated to CAF LA.UM.5.5.r1-05400-8x96.0
+
 *Fixed device not booting up sometimes
+
