@@ -2,9 +2,9 @@
 ====================================================
 
 
-August 1, 2017:
+# August 1, 2017:
 
-ROM:
+# ROM:
 
 *Latest upstream LineageOS changes
 
@@ -14,7 +14,7 @@ ROM:
 
 *Switched to new LineageOS Gallery app
 
-Kernel:
+# Kernel:
 
 *Updated to CAF LA.UM.5.5.r1-05400-8x96.0
 
