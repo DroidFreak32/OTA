@@ -1,12 +1,21 @@
-# Resurrection Remix Version 5.8.3 Changelog
+# Resurrection Remix Version 5.8.4 Changelog
 ====================================================
+
+# August 7, 2017:
+# ROM:
+*Latest upstream RR changes
+*Updated proprietary libraries to OxygenOS OB12/OB21
+
+# Kernel:
+*Updated DASH charge driver from the latest OxygenOS kernel sources
+
 
 
 # August 1, 2017:
 
 # ROM:
 
-*Latest upstream LineageOS changes
+*Latest upstream RR changes
 
 *Updated proprietary libraries to OxygenOS OB11/OB20 (the firmware packages in the first post have been updated too)
 
