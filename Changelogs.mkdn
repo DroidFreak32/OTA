@@ -13,7 +13,7 @@
 - Added DCI-P3 mode for comaptible S6E3FA5 display panel
 
 
-
+** This was initially present in RR but they decided to revert it due to some issues. So I may or maynot keep this (depends on users'feedback)
 
 
 
