@@ -6,7 +6,7 @@
             <RomUrl
                 id="afh"
                 title="ROM"
-                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=745425885120755027</RomUrl>
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=889764386195924643</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Official Changelog"
@@ -17,11 +17,11 @@
                 description="View Sultanized RR changelog">https://raw.githubusercontent.com/DroidFreak32/OTA/RR/Changelogs.mkdn</ChangelogUrl>
             <FirmwareUrl
                 id="firmware3"
-                title="Firmware - OP3 (NEW)"
+                title="Firmware - OP3"
                 description="Download the OB21 firmware">https://www.androidfilehost.com/?fid=961840155545587377</FirmwareUrl>
             <FirmwareUrl
                 id="firmware3t"
-                title="Firmware - OP3T (NEW)"
+                title="Firmware - OP3T"
                 description="Download the OB12 firmware">https://www.androidfilehost.com/?fid=745425885120752744</FirmwareUrl>
 
             <GappsUrl
