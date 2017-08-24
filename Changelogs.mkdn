@@ -1,5 +1,22 @@
 # Resurrection Remix Version 5.8.4 Changelog
 ====================================================
+# August 23, 2017:
+# Rom:
+- Upstream RR changes
+- Removed Trebuchet and NexusLauncher with Lawnchair
+- Brought back "Scroll small tiles" **
+- Added Russian T9 support in the dialer
+- Added russian dialer characters
+
+# Kernel
+- Removed unecessary bloat (by sultanxda)
+- Added DCI-P3 mode for comaptible S6E3FA5 display panel
+
+
+
+
+
+
 
 # August 7, 2017:
 # ROM:
