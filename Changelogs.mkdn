@@ -1,5 +1,7 @@
 # Resurrection Remix Version 5.8.4 Changelog
 ====================================================
-# Sept 14, 2017:
+# Sept 16, 2017:
 
-Minor update from the previous build bringing Sultan's Sept 11 changes.
+- Updated to include the Sept Security patches.
+- Updated sRGB and DCI-P3 configs from the latest OB
+- BlueBorne is patched
