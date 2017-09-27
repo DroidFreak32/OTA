@@ -6,6 +6,7 @@
 - Included USB fast charge option in kernel.
 - Included backlight dimmer (Super experimental, seems to be working using EXKM bit not KA. )
 - Media profile edits to use HEVC for video recording. Decreases file size.
+- Back to los-13 Gallery. LOS-14's lags a LOT.
 
 # Sept 16, 2017:
 
