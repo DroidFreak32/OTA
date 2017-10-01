@@ -1,5 +1,12 @@
 # Resurrection Remix Version 5.8.5 Changelog
 ====================================================
+
+# Oct 01, 2017:
+- Updated proprietary libraries to OxygenOS OB15/OB24
+- Updated to CAF LA.UM.5.5.r1-05800-8x96.0
+- Added kernel fix for BlueBorne vulnerability
+- Added potential fix for touchscreen issues experienced by some users
+
 # Sept 26, 2017:
 
 - Latest Upstream RR changes (Refer official changelog)
