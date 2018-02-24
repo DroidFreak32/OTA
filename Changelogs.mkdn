@@ -1,6 +1,13 @@
 # Resurrection Remix Version 5.8.5 Changelog
 ====================================================
 
+# Feb 24, 2018
+- Enabled Dexpreopt (Reason for the bigger ROM size).
+- Kernel in sync with sultanxda's (Check his LineageOS thread for the changelogs).
+- Oneplus Gallery or CM gallery separate builds.
+- No round icon stuff.
+- Add GCAM thread link to the OTA app.
+
 # Dec 27, 2017
 - Brought back slider options
 - Lawnchair is the default launcher since a long time
