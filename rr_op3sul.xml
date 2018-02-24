@@ -7,10 +7,10 @@
                 id="afh"
                 title="ROM"
                 description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=890129502657585212</RomUrl>
-            <RomUrl
+            <RomUrl2
                 id="afh"
                 title="ROM (With old CM-13 gallery)"
-                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=818070582850494767</RomUrl>
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=818070582850494767</RomUrl2>
             <ChangelogUrl
                 id="changelog"
                 title="Official Changelog"
