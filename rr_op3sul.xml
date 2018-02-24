@@ -34,7 +34,7 @@
             <GCamUrl
                 id="gcam"
                 title="Google Camera"
-                description="Link to the recommended GCAM Thread of our device">https://forum.xda-developers.com/oneplus-3/how-to/modded-google-camera-hdr-60fps-video-t3658552</GappsUrl>
+                description="Link to the recommended GCAM Thread of our device">https://forum.xda-developers.com/oneplus-3/how-to/modded-google-camera-hdr-60fps-video-t3658552</GCamUrl>
         </oneplus3>
     </Stable>
 </SlimOTA>
