@@ -2,11 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus3>
-            <Filename>RR-N-v5.8.5-20180129-oneplus3.zip</Filename>
+            <Filename>RR-N-v5.8.5-20180224-oneplus3.zip</Filename>
             <RomUrl
                 id="afh"
                 title="ROM"
-                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=890129502657580800</RomUrl>
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=890129502657585212</RomUrl>
+            <RomUrl
+                id="afh"
+                title="ROM (With old CM gallery)"
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=818070582850494767</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Official Changelog"
@@ -18,16 +22,19 @@
             <FirmwareUrl
                 id="firmware3"
                 title="Firmware - OP3"
-                description="Download the OOS 4.5.1 firmware (NEW)">https://androidfilehost.com/?fid=962021903579487128</FirmwareUrl>
+                description="Download the OOS 4.5.1 firmware">https://androidfilehost.com/?fid=962021903579487128</FirmwareUrl>
             <FirmwareUrl
                 id="firmware3t"
                 title="Firmware - OP3T"
-                description="Download the OOS 4.5.1 firmware (NEW)">https://androidfilehost.com/?fid=673791459329055753</FirmwareUrl>
-
+                description="Download the OOS 4.5.1 firmware">https://androidfilehost.com/?fid=673791459329055753</FirmwareUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
                 description="Download the latest OpenGapps (Pico/Micro/Nano) ">http://opengapps.org/</GappsUrl>
+            <GCamUrl
+                id="gcam"
+                title="Google Camera"
+                description="Link to the recommended GCAM Thread of our device">https://forum.xda-developers.com/oneplus-3/how-to/modded-google-camera-hdr-60fps-video-t3658552</GappsUrl>
         </oneplus3>
     </Stable>
 </SlimOTA>
