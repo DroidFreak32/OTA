@@ -7,6 +7,7 @@
 - Oneplus Gallery or CM gallery separate builds.
 - No round icon stuff.
 - Add GCAM thread link to the OTA app.
+- Other RR updates
 
 # Dec 27, 2017
 - Brought back slider options
