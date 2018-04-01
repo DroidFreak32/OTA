@@ -2,15 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus3>
-            <Filename>RR-N-v5.8.5-20180224-oneplus3.zip</Filename>
+            <Filename>RR-N-v5.8.5-20180401-oneplus3.zip</Filename>
             <RomUrl
                 id="afh"
                 title="ROM"
-                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=890129502657585212</RomUrl>
-            <RomUrl2
-                id="afh2"
-                title="ROM (With old CM-13 gallery)"
-                description="Download latest RR-Sultan-ized build with CM Gallery on AndroidFileHost">https://www.androidfilehost.com/?fid=818070582850494767</RomUrl2>
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://youtu.be/dQw4w9WgXcQ</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Official Changelog"
