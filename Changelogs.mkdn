@@ -1,10 +1,16 @@
 # Resurrection Remix Version 5.8.5 Changelog
 ====================================================
+# May 31, 2018
+- Merged Jan, Feb, Mar, Apr and May Security patches manually
+- Updated prebuilt APKs (FirefoxFocus, AdAway)
+- [Cherry-picked OneplusCamera HDR fix patch](https://github.com/mcdachpappe/android_frameworks_base-rr/commit/d6d5c697a3d730a39f38cf75468c842fb7fef3f7)
+- Removed CMFileManager
+- Added [MiXplorer File Manager](https://forum.xda-developers.com/showthread.php?t=1523691) by @HootanParsa
 
 # Feb 24, 2018
 - Enabled Dexpreopt (Reason for the bigger ROM size).
 - Kernel in sync with sultanxda's (Check his LineageOS thread for the changelogs).
-- Oneplus Gallery or CM gallery separate builds.
+- [STRIKE]Oneplus Gallery or CM gallery separate builds.[/STRIKE]
 - No round icon stuff.
 - Add GCAM thread link to the OTA app.
 - Other RR updates
