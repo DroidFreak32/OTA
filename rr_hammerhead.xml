@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-        <oneplus3>
+        <hammerhead>
             <Filename>RR-N-v5.8.5-20180622-hammerhead.zip</Filename>
             <RomUrl
                 id="afh"
@@ -27,6 +27,6 @@
                 id="gcam"
                 title="Google Camera"
                 description="Link to the recommended GCAM Thread of our device">https://forum.xda-developers.com/oneplus-3/how-to/modded-google-camera-hdr-60fps-video-t3658552</GCamUrl>
-        </oneplus3>
+        </hammerhead>
     </Stable>
 </SlimOTA>
