@@ -1,5 +1,158 @@
-# Resurrection Remix Version 5.8.5 Changelog
+# ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
 ====================================================
+
+ # ▼ July 26, 2018
+ 
+ ▪ project frameworks/base/
+ ▪ f29f01469a9 livedisplay: Allow tile creation before boot completed phase [2/2]
+
+ ▪ project packages/apps/Contacts/
+ ▪ 370e9a856 Contacts: Don't crash if Blocked Number Storage is disabled
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ aff1c3f9 ContactsCommon: Fix possible NPE
+ ▪ 2c668461 Allow to edit the SIP field of contacts stored locally
+ ▪ 7803fc62 Export only selected contact, not all contacts
+ ▪ 4eb7f56f Add support to export multi contacts to Vcard
+
+ ▪ project packages/apps/Dialer/
+ ▪ e0b0a8775 InCallUI: Keep button states in sync with call properties
+ ▪ e3cef1137 InCallUI: Refactor primary call info card
+ ▪ 7e27d49de Fix incorrect number formatting in call stats details.
+ ▪ cfeb7a9ac Remove redundant layout item.
+ ▪ c102bd710 InCallUI: improve in-call UI for different supported routes
+ ▪ 873d6f784 Dialer: Fix possible NPE
+ ▪ f8435a19c Dialer: comply with EU's GDPR
+ ▪ 442ce16b8 Don't crash if Blocked Number Storage is disabled
+ ▪ ce7cb7e1e Dialer: Fix string issues
+ ▪ 62f5c35f3 Dialer: Fix translation issues
+
+ ▪ project packages/apps/Messaging/
+ ▪ 6cae4fe Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ c678bdce Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 9671396 Adjust SpecialCharInternalLayoutStyle to match other buttons
+
+ ▪ project packages/apps/Settings/
+ ▪ 94baf3d102 Title is different after tapping "Memory used by apps"
+ ▪ 701739ea34 settings: wifi: Default to numeric keyboard for static IP items
+ ▪ 668e373e77 PrivacyGuard: skip icon lookup for OP_NONE
+ ▪ 5a423824a7 PrivacyGuard: add a couple more missing icons
+ ▪ a862c42d72 Privacy Guard: Add icon for VPN permission
+ ▪ 00c6c8515d AppOps: Add missing copyrights to icons
+ ▪ a8aff396e5 AppOps: Add missing icons for alarm, bluetooth, stats, toast
+ ▪ 0c9cc087d3 AppOpsDetails: Display all missing ops
+ ▪ 58193666e9 FingerprintEnrollFindSensor: Don't overlay front for side sensors
+ ▪ c5582c2c34 DevelopmentSettings: Fix possible NPE
+ ▪ 1051f63138 DevelopmentSettings: Hide OEM unlock by default
+ ▪ d5f8634532 AppOps: Refactor code
+
+ ▪ project packages/services/Telecomm/
+ ▪ 536c6e20 CallAudioRouteStateMachine: add "noearpiece" build characteristic
+ ▪ 732411b6 Telecomm: Account for default data sub ID when setting MSIM audio params
+ ▪ 1da23f88 Fix unable to swap calls through BT in CDMA
+ ▪ 1bdea027 Fix InCall UI display issue for SIP and normal calls
+ ▪ 3a548b12 SensitivePhoneNumbers: Fix number comparison
+ ▪ 8c77f941 SensitivePhoneNumbers: Handle lists of MCC codes
+
+ ▪ project packages/services/Telephony/
+ ▪ 309fbcbe Telephony: Don't rely on a possibly invalid phoneId
+ ▪ 172aa76e NetworkSelection: Improve home network display
+ ▪ 9187e4d7 Telephony: Add ERI configuration for U.S. Cellular
+ ▪ d9402085 Fix phone process crash due to phone being null.
+ ▪ 5a7629b2 Telephony: NetworkSelection: Don't show blank "available networks"
+ ▪ d81d4e3e Telephony: Fix wrong en-translations
+ ▪ 37336a6c Telephony: Workaround for MWI on Sprint
+
+ ▪ project vendor/cm/
+ ▪ 923ce7e7 repopick: Update SSH queries result to match HTTP queries
+ ▪ f3ac35e9 sensitive_pn: Add sensitive phone number for Macedonia
+ ▪ b6bf1c81 cm: Set TARGET_CRYPTFS_HW_PATH if HW crypto is enabled
+ ▪ 6dab3462 prebuilts: Fix Telfort apn
+ ▪ 30a179cb cm: extract_utils: Fix rootfs targets after 72765e4cc950d90abb730bc62e3f5f9eeba5aa4e
+ ▪ 97966722 Fix Android "Work Profiles" also known as AfW 'Android for Work'
+ ▪ 23a77036 build: dt_image: support prebuilt DT images
+ ▪ 5df754b8 write_makefiles: fix paths in BUILD_PREBUILT with destination
+ ▪ 0f8a8eed repopick: Allow to pick changes by URL
+ ▪ 779c2e5c repopick: Actually print the patchset number
+ ▪ c1f16396 repopick: Ignore the trailing slash in change numbers
+ ▪ bbd3889b repopick: Try to keep the changes sorted
+ ▪ 9e522c25 apn: Add APN for spusu MVNO
+ ▪ 3c62d664 cm: Allow IPv6 on roaming for T-Mobile US APNs
+ ▪ 2ccbe102 cm: Consolidate T-Mobile US APNs
+ ▪ 172e56d4 Added Cape Verde carrier CVMóvel default APN as configured by sales agents
+ ▪ f2d0c802 Add APN for iD Mobile UK MVNO
+ ▪ f8e577cd ATV: Default double tap on home to the recents menu
+ ▪ a12e297e sensitive_pn: added Belgium & Switzerland
+ ▪ 370c8772 Updated Syma APN
+ ▪ 16ca8f06 overlay: frameworks: allow gms to access persistent data partition
+ ▪ d4ddafe9 apns-conf: Update Ukrainian APNs
+ ▪ 3c3e878c apn: Remove "hipri,dun" from Bouygues Telecom
+ ▪ 54186714 Add M-tel (BIH) APN for M-tel Frend data plan
+ ▪ 734f7c60 repopick: use https by default for repopicking
+ ▪ 21e78ca4 repopick: support auth'ing to gerrit and picking drafts
+ ▪ e3adcf6e sensitive_pn: Fix typo in sensitive phone number
+ ▪ 441a99c3 sensitive_pn: Add some more numbers for Canada
+ ▪ bed5d25d sensitive_pn: Sort file
+ ▪ f6e99bb6 extract_utils: Use temporary folder for system dump
+ ▪ 383e9adc repopick: Support overriding the default commits count to check
+ ▪ 02780a69 vendor: enable multi-user across all devices
+ ▪ ab96f9bc overlay: Enable “Panic Detection” mode
+ ▪ 44dae689 extract-files: Bring back old behavior for SRC
+ ▪ fdb892eb templates: Default to sanitize vendor folder during extraction
+ ▪ 19c8f1fc templates: Update to show usage for new extract_files features
+ ▪ cbb13d98 extract_utils: Fix pinning when not cleaning vendor dir
+ ▪ 4692b4d6 sensitive_pn: Add BG human trafficking and domestic abuse hotlines
+ ▪ 537294d0 sensitive_pn: add EU 116 Numbers
+ ▪ d1310152 sensitive_pn: Include France DOM (Overseas regions) codes
+ ▪ 5b8bbf9c Update Prebuilt APKs
+ ▪ 8f369050 Update Magisk to 16.0 and MagiskManager to 5.8.3
+ ▪ b0150776 Remove NexusLauncher
+
+ ▪ project vendor/cmsdk/
+ ▪ 449d889 cmsdk: Add Network Traffic [2/3]
+ ▪ 53ae42a cmsdk: Add CMStatusBarItem interfaces
+ ▪ 3f39d6a CMSettingsProvider: Fix default setting for DEV_FORCE_SHOW_NAVBAR
+ ▪ 7a45e34 livedisplay: Allow tile creation before boot completed phase [1/2]
+ ▪ e8ea545 cmsdk: fix picture adjustment from depending on color balance
+ ▪ 8e353ea Remove obsolete values-be translations
+
+ # ▼ July 25, 2018
+
+
+ ▪ project build/
+ ▪ 34c8917 Security string to 2018-07-05
+
+ ▪ project frameworks/av/
+ ▪ 040842a Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat
+
+ ▪ project frameworks/base/
+ ▪ 33eec39b477 DO NOT MERGE Truncate newline and tab characters in BluetoothDevice name
+ ▪ 539dd170050 Rework thumbnail cleanup
+ ▪ c6b9ae7875f ResStringPool: Fix security vulnerability
+ ▪ 1aa10f681f5 Add NETWORK_STACK permission
+ ▪ 48e947413fc Copy PermissionChecker from support lib and use in RcognitionService
+ ▪ eb78fa62f19 Fixed Security Vulnerability of DcParamObject
+ ▪ b2ca632d6c7 Add permission check to setAllowOnlyVpnForUids
+ ▪ 8821fd45a30 Verify last array's length in readFromParcel
+ ▪ 944556081e8 Update internal ViewPager's SavedState to match Support Library version
+ ▪ 9fd703d6d24 Adjust URI host parsing to stop on \ character.
+ ▪ 9f8a137fb8b Check for null-terminator in ResStringPool::string8At
+ ▪ de6994fe57c Fix VerifyCredentialResponse parcelling code
+ ▪ 8ce0e08691b [RTT] ParcelableRttResults parcel code fix
+ ▪ 04c6ca5fd95 DO NOT MERGE Backporting potential usb tapjacking precaution.
+ ▪ a974dfb349a mtp: fix double free of thumbnail data
+ ▪ be982856d32 Throw OOME if Bitmap.nativeCreate fails
+ ▪ 5a325baec85 Adjust Uri host parsing to use last instead of first @.
+
+ ▪ project frameworks/native/
+ ▪ 7addbf4 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat
+
+
+
 # May 31, 2018
 - Merged Jan, Feb, Mar, Apr and May Security patches manually
 - Updated prebuilt APKs (FirefoxFocus, AdAway)
