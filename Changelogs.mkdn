@@ -1,36 +1,35 @@
 # ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
 ====================================================
 
- ## ▼ Aug 18, 2018
+ ## ▼ Aug 18, 2018    
 
+ ### ▪ project build/    
+ ▪ d2a448488 Security string to 2018-08-05    
 
- ### ▪ project build/
- ▪ d2a448488 Security string to 2018-08-05
+ ### ▪ project frameworks/av/    
+ ▪ ebeb48640 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat    
 
- ### ▪ project frameworks/av/
- ▪ ebeb48640 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat
+ ### ▪ project frameworks/base/    
+ ▪ 5b630ef2204 Make safe label more safe    
+ ▪ 81cb0252186 ResStringPool: Prevenet boot loop from se fix    
+ ▪ 1ce6e5f1537 Fix DynamicRefTable::load security bug      
 
- ### ▪ project frameworks/base/
- ▪ 5b630ef2204 Make safe label more safe
- ▪ 81cb0252186 ResStringPool: Prevenet boot loop from se fix
- ▪ 1ce6e5f1537 Fix DynamicRefTable::load security bug
+ ### ▪ project packages/apps/Messaging/    
+ ▪ 00b4936 Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD    
 
- ### ▪ project packages/apps/Messaging/
- ▪ 00b4936 Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD
+ ### ▪ project packages/apps/PackageInstaller/    
+ ▪ f56780c Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat    
 
- ### ▪ project packages/apps/PackageInstaller/
- ▪ f56780c Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat
+ ### ▪ project packages/apps/Settings/    
+ ▪ 0d0c83cb43 Merge translations of Bluetooth confirmation text    
+ ▪ 23a1b39f9b DO NOT MERGE Fix unexpected behavior in Bluetooth pairing    
 
- ### ▪ project packages/apps/Settings/
- ▪ 0d0c83cb43 Merge translations of Bluetooth confirmation text
- ▪ 23a1b39f9b DO NOT MERGE Fix unexpected behavior in Bluetooth pairing
+ ### ▪ project packages/services/Telephony/    
+ ▪ 8e906e16 Fix potential NPE in EmergencyCallbackModeExitDialog.    
+ ▪ edb47cfe DO NOT MERGE Revise security requirements for TelephonyManager#endCall.    
 
- ### ▪ project packages/services/Telephony/
- ▪ 8e906e16 Fix potential NPE in EmergencyCallbackModeExitDialog.
- ▪ edb47cfe DO NOT MERGE Revise security requirements for TelephonyManager#endCall.
-
- ### ▪ project external/chromium-webview/
- ▪ bca7359 Updated webviews to Chromium 67.0.3396.87
+ ### ▪ project external/chromium-webview/    
+ ▪ bca7359 Updated webviews to Chromium 67.0.3396.87    
 
 
  ## ▼ July 26, 2018
