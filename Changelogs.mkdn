@@ -1,37 +1,37 @@
 # ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
 ====================================================
 
- ## ▼ Sep 24, 2018
+  ## ▼ Sep 24, 2018  
 
 
- ### ▪ project build/
- ▪ f9396d786 Security string to 2018-09-05
+ ### ▪ project build/  
+ ▪ f9396d786 Security string to 2018-09-05  
 
- ### ▪ project device/oneplus/oneplus3/
- ▪ 8c871a5 op3: Remove config_sms_force_7bit_encoding
+ ### ▪ project device/oneplus/oneplus3/  
+ ▪ 8c871a5 op3: Remove config_sms_force_7bit_encoding  
 
- ### ▪ project frameworks/av/
- ▪ 58939dd78 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+ ### ▪ project frameworks/av/  
+ ▪ 58939dd78 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat  
 
- ### ▪ project frameworks/base/
- ▪ 859694a3fb6 Add signature Spoofing permission
- ▪ acbc75a2ccc base: Fix OnePlusCamera HDR Mode
- ▪ fc5554a4fbb Backport Prevent shortcut info package name spoofing
- ▪ 58defa8d94e Fix TrackInfo parcel write
- ▪ a2358f2c3de Resolve inconsistent parcel read in NanoAppFilter
+ ### ▪ project frameworks/base/  
+ ▪ 859694a3fb6 Add signature Spoofing permission  
+ ▪ acbc75a2ccc base: Fix OnePlusCamera HDR Mode  
+ ▪ fc5554a4fbb Backport Prevent shortcut info package name spoofing  
+ ▪ 58defa8d94e Fix TrackInfo parcel write  
+ ▪ a2358f2c3de Resolve inconsistent parcel read in NanoAppFilter  
 
- ### ▪ project system/bt/
- ▪ 9463240 DO NOT MERGE HFP: Fix out of bound access in phone number processing
- ▪ c07896e Don't use Address after it was deleted
- ▪ bcb7b44 HID Host: Check L2CAP packet data length
- ▪ 7f2040a Add packet length checks in l2cble_process_sig_cmd
- ▪ c9da230 Fix OOB read in process_l2cap_cmd
+ ### ▪ project system/bt/  
+ ▪ 9463240 DO NOT MERGE HFP: Fix out of bound access in phone number processing  
+ ▪ c07896e Don't use Address after it was deleted  
+ ▪ bcb7b44 HID Host: Check L2CAP packet data length  
+ ▪ 7f2040a Add packet length checks in l2cble_process_sig_cmd  
+ ▪ c9da230 Fix OOB read in process_l2cap_cmd  
 
- ### ▪ project vendor/shishu/
- ▪ 78f15d5 Update FirefoxFocus apk
+ ### ▪ project vendor/shishu/  
+ ▪ 78f15d5 Update FirefoxFocus apk  
 
 
- ## ▼ Aug 18, 2018    
+## ▼ Aug 18, 2018    
 
  ### ▪ project build/    
  ▪ d2a448488 Security string to 2018-08-05    
