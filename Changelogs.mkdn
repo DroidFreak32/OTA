@@ -1,6 +1,160 @@
 # ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
 ====================================================
 
+
+  ## ▼ October 31, 2018
+
+
+ ### ▪ project frameworks/av/  
+ ▪ e30c57e43 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat  
+
+ ### ▪ project frameworks/base/  
+ ▪ d88f9b8035d Disable camera shutter and screenshot sound peventing audio leak [1/2]  
+ ▪ f81ad23e075 DocumentsUI: Set up the standalone file manager for now  
+ ▪ 24200b8077b Screenshot: Append app name after the screenshot date.  
+ ▪ 8f5b86a6848 Fix screenshot not saved when appending appname with some languages  
+ ▪ b6cc3327f1d Screenshot: append app name to filename  
+ ▪ 06d93ab4dc9 Remove ticker text for screenshot saving notification.  
+ ▪ d322fb374a6 Grant read/write permissions on share screenshot.  
+ ▪ dd1fe1eeb76 Show a toast when a screenshot is taken and power saver is on.  
+ ▪ 9d75c2f21ec Log screenshot exceptions.  
+ ▪ b38f0092fb8 Grant Uri permissions for new screenshots.  
+ ▪ ebd6e2a575f Add signature Spoofing permission  
+ ▪ 3268a8cb6fc base: Fix OnePlusCamera HDR Mode  
+ ▪ 9a5c633f7c1 Fix crash during cursor moving on BiDi text  
+ ▪ e92fd33853f DO NOT MERGE. Persistable Uri grants still require permissions.  
+ ▪ cd6483c739b Always create grant structures when persistable.  
+ ▪ 9aec95f86a1 Optimise the hit test algorithm  
+ ▪ 3447dbf952c Add support for search in DownloadManager.  
+ ▪ 1dc3055aed0 DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.  
+ ▪ 6a79957a415 DO NOT MERGE. Execute "strict" queries with extra parentheses.  
+
+ ### ▪ project hardware/qcom/audio-caf/msm8996/  
+ ▪ 84cfc8975 hal: Use call state to ensure voice call start  
+
+ ### ▪ project hardware/qcom/display-caf/msm8996/  
+ ▪ 47b9abf12 Fix Buffer Overflow in Vendor Service display.qservice  
+ ▪ c3a4fcdb8 hwc2: Validate input parcel values for few qclient methods.  
+ ▪ 70a2c90f1 hwc: Validate input parcel values for few qclient methods  
+ ▪ 2f561a43b gralloc1: Check input addresses for null  
+ ▪ 0982b8efe hwc2: Fix NULL pointer dereference and out of bound access  
+
+ ### ▪ project hardware/qcom/media-caf/msm8996/  
+ ▪ 8155900ac mm-video-v4l2: Protect buffer access and increase input buffer size  
+
+ ### ▪ project packages/apps/Settings/  
+ ▪ 8e3e2fb69b Disable camera shutter and screenshot sound peventing audio leak [2/2]  
+ ▪ 0cd4475d6d Enable toast app icon by default  
+ ▪ e7e5fcc738 Enable random configurations summary by default  
+ ▪ afd8309338 Reduce screenshot delat to 100ms  
+ ▪ 520b216253 Enable Statusbar Brightness control by default  
+ ▪ 3626bde7a7 Enable Burnin Protection by default  
+ ▪ ed58d8ffe2 BACKPORT: Disable changing lock when device is not provisioned.  
+
+ ### ▪ project vendor/cm/  
+ ▪ 8bc1965e Update deskclock  
+ ▪ c4260827 repopick: Try to fast-forward first  
+
+ ### ▪ project vendor/shishu/  
+ ▪ 7170bee UPdate prebuilts  
+
+ ## ▼ October 30, 2018
+
+
+ ### ▪ project packages/providers/DownloadProvider/  
+ ▪ 715c24a DO NOT MERGE. All untrusted selections must go through builder.  
+
+ ## ▼ October 28, 2018
+
+
+ ### ▪ project bionic/  
+ ▪ 1f7e6da zoneinfo: Update tzdata to 2018g  
+
+ ### ▪ project external/icu/  
+ ▪ 7809bc2 icu: Update tzdata to 2018g  
+
+ ## ▼ October 27, 2018
+
+
+ ### ▪ project external/chromium-webview/  
+ ▪ 2bbd3e5 Update webviews to Chromium 69.0.3497.109  
+ ### ▪ project frameworks/av/
+ ▪ e30c57e43 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ### ▪ project frameworks/base/
+ ▪ d88f9b8035d Disable camera shutter and screenshot sound peventing audio leak [1/2]
+ ▪ f81ad23e075 DocumentsUI: Set up the standalone file manager for now
+ ▪ 24200b8077b Screenshot: Append app name after the screenshot date.
+ ▪ 8f5b86a6848 Fix screenshot not saved when appending appname with some languages
+ ▪ b6cc3327f1d Screenshot: append app name to filename
+ ▪ 06d93ab4dc9 Remove ticker text for screenshot saving notification.
+ ▪ d322fb374a6 Grant read/write permissions on share screenshot.
+ ▪ dd1fe1eeb76 Show a toast when a screenshot is taken and power saver is on.
+ ▪ 9d75c2f21ec Log screenshot exceptions.
+ ▪ b38f0092fb8 Grant Uri permissions for new screenshots.
+ ▪ ebd6e2a575f Add signature Spoofing permission
+ ▪ 3268a8cb6fc base: Fix OnePlusCamera HDR Mode
+ ▪ 9a5c633f7c1 Fix crash during cursor moving on BiDi text
+ ▪ e92fd33853f DO NOT MERGE. Persistable Uri grants still require permissions.
+ ▪ cd6483c739b Always create grant structures when persistable.
+ ▪ 9aec95f86a1 Optimise the hit test algorithm
+ ▪ 3447dbf952c Add support for search in DownloadManager.
+ ▪ 1dc3055aed0 DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.
+ ▪ 6a79957a415 DO NOT MERGE. Execute "strict" queries with extra parentheses.
+
+ ### ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 84cfc8975 hal: Use call state to ensure voice call start
+
+ ### ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 47b9abf12 Fix Buffer Overflow in Vendor Service display.qservice
+ ▪ c3a4fcdb8 hwc2: Validate input parcel values for few qclient methods.
+ ▪ 70a2c90f1 hwc: Validate input parcel values for few qclient methods
+ ▪ 2f561a43b gralloc1: Check input addresses for null
+ ▪ 0982b8efe hwc2: Fix NULL pointer dereference and out of bound access
+
+ ### ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 8155900ac mm-video-v4l2: Protect buffer access and increase input buffer size
+
+ ### ▪ project packages/apps/Settings/
+ ▪ 8e3e2fb69b Disable camera shutter and screenshot sound peventing audio leak [2/2]
+ ▪ 0cd4475d6d Enable toast app icon by default
+ ▪ e7e5fcc738 Enable random configurations summary by default
+ ▪ afd8309338 Reduce screenshot delat to 100ms
+ ▪ 520b216253 Enable Statusbar Brightness control by default
+ ▪ 3626bde7a7 Enable Burnin Protection by default
+ ▪ ed58d8ffe2 BACKPORT: Disable changing lock when device is not provisioned.
+
+ ### ▪ project vendor/cm/
+ ▪ 8bc1965e Update deskclock
+ ▪ c4260827 repopick: Try to fast-forward first
+
+ ### ▪ project vendor/shishu/
+ ▪ 7170bee UPdate prebuilts
+
+ ## ▼ October 31, 2018
+
+
+ ### ▪ project packages/providers/DownloadProvider/
+ ▪ 715c24a DO NOT MERGE. All untrusted selections must go through builder.
+
+ ## ▼ October 28, 2018
+
+
+ ### ▪ project bionic/
+ ▪ 1f7e6da zoneinfo: Update tzdata to 2018g
+
+ ### ▪ project external/icu/
+ ▪ 7809bc2 icu: Update tzdata to 2018g
+
+ ## ▼ October 27, 2018
+
+
+ ### ▪ project external/chromium-webview/
+ ▪ 2bbd3e5 Update webviews to Chromium 69.0.3497.109
+
+
+
+
   ## ▼ Sep 24, 2018  
 
 
