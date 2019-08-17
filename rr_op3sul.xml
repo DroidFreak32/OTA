@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus3>
-            <Filename>RR-N-v5.8.5-20190618-oneplus3.zip</Filename>
+            <Filename>RR-N-v5.8.5-20190816-oneplus3.zip</Filename>
             <RomUrl
                 id="afh"
                 title="ROM (Recommended to Wipe Dalvik &amp; Cache &amp; Overlays)"
-                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://www.androidfilehost.com/?fid=6006931924117898301</RomUrl>
+                description="Download latest RR-Sultan-ized build on AndroidFileHost">https://androidfilehost.com/?fid=6006931924117938005</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Official Changelog"
