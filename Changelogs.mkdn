@@ -1,117 +1,116 @@
 # ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
 ====================================================
+## ▼ 11/04/2020
 
- ▼ 11/04/2020
 
-### ▪ project kernel/oneplus/msm8996/  
- ▪ 99a810f37adf f2fs: remove unneeded check for error allocating bio_post_read_ctx  
- ▪ 69861ea16a8d f2fs: convert inline_dir early before starting rename  
- ▪ 6e69dc942a42 f2fs: don't put new_page twice in f2fs_rename  
- ▪ 519d2b557e0c f2fs: set I_LINKABLE early to avoid wrong access by vfs  
- ▪ 6f1c83dcbe61 f2fs: cleanup duplicate stats for atomic files  
- ▪ 53572d0e1f40 f2fs: set GFP_NOFS when moving inline dentries  
- ▪ a762621eb159 f2fs: should avoid recursive filesystem ops  
- ▪ e1c226d44f1c f2fs: call f2fs_balance_fs outside of locked page  
- ▪ d83f42f61e44 f2fs: stop GC when the victim becomes fully valid  
- ▪ 83a9df4274ba f2fs: Fix deadlock in f2fs_gc() context during atomic files handling  
- ▪ 5382c66d398b f2fs: fix potential overflow  
- ▪ b14adf8949bb f2fs: fix to update dir's i_pino during cross_rename  
- ▪ 66a69968c271 f2fs: mark recovery flag correctly in read_raw_super_block()  
- ▪ e3172df62d38 f2fs: fix to update time in lazytime mode  
- ▪ bc47f7a2f116 f2fs: add a condition to detect overflow in f2fs_ioc_gc_range()  
- ▪ 94eed97e6115 f2fs: fix extent corrupotion during directIO in LFS mode  
- ▪ 07913ab5a348 f2fs: check all the data segments against all node ones  
- ▪ e5b524e28bb9 f2fs: fix to avoid accessing uninitialized field of inode page in is_alive()  
- ▪ dc02c1b7a0ba f2fs: avoid infinite GC loop due to stale atomic files  
- ▪ ff2064782016 f2fs: Fix indefinite loop in f2fs_gc()  
- ▪ fb5060d499b7 f2fs: fix flushing node pages when checkpoint is disabled  
- ▪ b9d95513f931 f2fs: fix to writeout dirty inode during node flush  
- ▪ 9a26e9978e21 f2fs: Fix indefinite loop in f2fs_gc()  
- ▪ 86a59497ebea f2fs: allocate memory in batch in build_sit_info()  
- ▪ 246e8d9f1d9e f2fs: fix to avoid data corruption by forbidding SSR overwrite  
- ▪ 86d6d0fc450a f2fs: disallow direct IO in atomic write  
- ▪ a540f78c5d52 f2fs: fix to drop meta/node pages during umount  
- ▪ 2f8d6780a266 vfs: add find_inode_nowait() function  
- ▪ 05a97a1a5414 f2fs: fix f2fs_msg() API mismatch  
- ▪ e9ff7042ab4e f2fs: don't wait with each discards under gc_urgent  
- ▪ 0b5d8c5ff960 f2fs: use a more reasonable discard policy for high utilization  
- ▪ 13772b2f460d f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages()  
- ▪ 3812aca3450d f2fs: rename /sys/fs/f2fs  
- ▪ bdb579225333 f2fs: do not expose tunables that doesn't work with rapid GC  
- ▪ 90702c0e328b f2fs: drop caches upon rapid GC exit  
- ▪ de39f4cc1f0b fs: drop_caches: expose mm_drop_caches()  
- ▪ a403dd274e3d f2fs: explicitly flush device upon foreground GC  
- ▪ 1c0849bc8ac9 f2fs/rapid_gc: do not wait until all invalid blocks are discarded  
- ▪ 37acb9cb483d f2fs: implement rapid GC for Android  
- ▪ bd55d9a15958 f2fs: set ioprio of GC kthread to idle  
- ▪ 32ce1005d37f f2fs: use fsync_mode=nobarrier by default  
- ▪ 481b41372d56 ARM: dts: 15801: Switch back to old sRGB cmds  
- ▪ 10ce2f0dbccc ARM: dts: 15801: Update panel sRGB & DCI-P3 cmd from Open Beta kernel  
- ▪ 020538d2f405 mdss: livedisplay: Add support for DCI-P3 mode  
- ▪ 4add135ebc19 drivers: media: msm: Revert a few recent changes  
- ▪ 8c9db8a1db78 HID keyboard/mouse gadget support  
- ▪ 8b7c44850c53 net/wireguard: add wireguard importer  
- ▪ cc562985c319 op3: defconfig: Enable IP_NF_TARGET_TTL  
- ▪ 7903c7f100e7 TEST: Joystick support  
- ▪ 0b6bbd70c3fc Use ccache to compile kernel  
- ▪ f46d371eb30a Merge branch 'linux-3.18.y' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into cm-14.1-sultan-f2fs-stable  
+### project kernel/oneplus/msm8996/  
+	▪ 99a810f37adf f2fs: remove unneeded check for error allocating bio_post_read_ctx  
+	▪ 69861ea16a8d f2fs: convert inline_dir early before starting rename  
+	▪ 6e69dc942a42 f2fs: don't put new_page twice in f2fs_rename  
+	▪ 519d2b557e0c f2fs: set I_LINKABLE early to avoid wrong access by vfs  
+	▪ 6f1c83dcbe61 f2fs: cleanup duplicate stats for atomic files  
+	▪ 53572d0e1f40 f2fs: set GFP_NOFS when moving inline dentries  
+	▪ a762621eb159 f2fs: should avoid recursive filesystem ops  
+	▪ e1c226d44f1c f2fs: call f2fs_balance_fs outside of locked page  
+	▪ d83f42f61e44 f2fs: stop GC when the victim becomes fully valid  
+	▪ 83a9df4274ba f2fs: Fix deadlock in f2fs_gc() context during atomic files handling  
+	▪ 5382c66d398b f2fs: fix potential overflow  
+	▪ b14adf8949bb f2fs: fix to update dir's i_pino during cross_rename  
+	▪ 66a69968c271 f2fs: mark recovery flag correctly in read_raw_super_block()  
+	▪ e3172df62d38 f2fs: fix to update time in lazytime mode  
+	▪ bc47f7a2f116 f2fs: add a condition to detect overflow in f2fs_ioc_gc_range()  
+	▪ 94eed97e6115 f2fs: fix extent corrupotion during directIO in LFS mode  
+	▪ 07913ab5a348 f2fs: check all the data segments against all node ones  
+	▪ e5b524e28bb9 f2fs: fix to avoid accessing uninitialized field of inode page in is_alive()  
+	▪ dc02c1b7a0ba f2fs: avoid infinite GC loop due to stale atomic files  
+	▪ ff2064782016 f2fs: Fix indefinite loop in f2fs_gc()  
+	▪ fb5060d499b7 f2fs: fix flushing node pages when checkpoint is disabled  
+	▪ b9d95513f931 f2fs: fix to writeout dirty inode during node flush  
+	▪ 9a26e9978e21 f2fs: Fix indefinite loop in f2fs_gc()  
+	▪ 86a59497ebea f2fs: allocate memory in batch in build_sit_info()  
+	▪ 246e8d9f1d9e f2fs: fix to avoid data corruption by forbidding SSR overwrite  
+	▪ 86d6d0fc450a f2fs: disallow direct IO in atomic write  
+	▪ a540f78c5d52 f2fs: fix to drop meta/node pages during umount  
+	▪ 2f8d6780a266 vfs: add find_inode_nowait() function  
+	▪ 05a97a1a5414 f2fs: fix f2fs_msg() API mismatch  
+	▪ e9ff7042ab4e f2fs: don't wait with each discards under gc_urgent  
+	▪ 0b5d8c5ff960 f2fs: use a more reasonable discard policy for high utilization  
+	▪ 13772b2f460d f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages()  
+	▪ 3812aca3450d f2fs: rename /sys/fs/f2fs  
+	▪ bdb579225333 f2fs: do not expose tunables that doesn't work with rapid GC  
+	▪ 90702c0e328b f2fs: drop caches upon rapid GC exit  
+	▪ de39f4cc1f0b fs: drop_caches: expose mm_drop_caches()  
+	▪ a403dd274e3d f2fs: explicitly flush device upon foreground GC  
+	▪ 1c0849bc8ac9 f2fs/rapid_gc: do not wait until all invalid blocks are discarded  
+	▪ 37acb9cb483d f2fs: implement rapid GC for Android  
+	▪ bd55d9a15958 f2fs: set ioprio of GC kthread to idle  
+	▪ 32ce1005d37f f2fs: use fsync_mode=nobarrier by default  
+	▪ 481b41372d56 ARM: dts: 15801: Switch back to old sRGB cmds  
+	▪ 10ce2f0dbccc ARM: dts: 15801: Update panel sRGB & DCI-P3 cmd from Open Beta kernel  
+	▪ 020538d2f405 mdss: livedisplay: Add support for DCI-P3 mode  
+	▪ 4add135ebc19 drivers: media: msm: Revert a few recent changes  
+	▪ 8c9db8a1db78 HID keyboard/mouse gadget support  
+	▪ 8b7c44850c53 net/wireguard: add wireguard importer  
+	▪ cc562985c319 op3: defconfig: Enable IP_NF_TARGET_TTL  
+	▪ 7903c7f100e7 TEST: Joystick support  
+	▪ 0b6bbd70c3fc Use ccache to compile kernel  
+	▪ f46d371eb30a Merge branch 'linux-3.18.y' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into cm-14.1-sultan-f2fs-stable  
 
 ## ▼ 11/03/2020
 
 
-### ▪ project build/  
- ▪ a281780c6 Bump Security String to 2020-10-05  
- ▪ d626e7e5e Bump Security String to 2020-09-05  
+### project build/  
+	▪ a281780c6 Bump Security String to 2020-10-05  
+	▪ d626e7e5e Bump Security String to 2020-09-05  
 
-### ▪ project device/oneplus/oneplus3/  
- ▪ 9154c89 op3: Import CarrierConfig from OxygenOS 9.0.6  
- ▪ 376af9b Revert "op3: Enable debug VoLTE and WFC props"  
+### project device/oneplus/oneplus3/  
+	▪ 9154c89 op3: Import CarrierConfig from OxygenOS 9.0.6  
+	▪ 376af9b Revert "op3: Enable debug VoLTE and WFC props"  
 
-### ▪ project external/unicode/  
- ▪ 906f59f Merge tag 'android-10.0.0_r47' of https://android.googlesource.com/platform/external/unicode into HEAD  
+### project external/unicode/  
+	▪ 906f59f Merge tag 'android-10.0.0_r47' of https://android.googlesource.com/platform/external/unicode into HEAD  
 
-### ▪ project frameworks/base/  
- ▪ b970b93ea12 SQUASH: Font updates unto Android 10 This is a combination of 20 commits.  
- ▪ df461694964 Revert "Add smart pixels [1/2]"  
- ▪ 11b554cad86 Add smart pixels [1/2]  
- ▪ 2627f3787f6 Screen off animations [1/2]  
- ▪ 2a77d380daa Disable camera shutter and screenshot sound preventing audio leak [1/2]  
- ▪ 1af7763e671 DocumentsUI: Set up the standalone file manager for now  
- ▪ 5916657e752 Screenshot: Append app name after the screenshot date.  
- ▪ 3a3c00e42e3 Fix screenshot not saved when appending appname with some languages  
- ▪ 1b3c42a2a47 Screenshot: append app name to filename  
- ▪ 5689bd1bcd5 Remove ticker text for screenshot saving notification.  
- ▪ ff47597b29c Grant read/write permissions on share screenshot.  
- ▪ 5305b8d6a46 Show a toast when a screenshot is taken and power saver is on.  
- ▪ 1cb3017fa69 Log screenshot exceptions.  
- ▪ 9f173e77c7e Grant Uri permissions for new screenshots.  
- ▪ 404ac046929 Add signature Spoofing permission  
- ▪ 5d35841f1dc base: Fix OnePlusCamera HDR Mode  
- ▪ f106639ba0b Add missing isShellUser check  
+### project frameworks/base/  
+	▪ b970b93ea12 SQUASH: Font updates unto Android 10 This is a combination of 20 commits.  
+	▪ df461694964 Revert "Add smart pixels [1/2]"  
+	▪ 11b554cad86 Add smart pixels [1/2]  
+	▪ 2627f3787f6 Screen off animations [1/2]  
+	▪ 2a77d380daa Disable camera shutter and screenshot sound preventing audio leak [1/2]  
+	▪ 1af7763e671 DocumentsUI: Set up the standalone file manager for now  
+	▪ 5916657e752 Screenshot: Append app name after the screenshot date.  
+	▪ 3a3c00e42e3 Fix screenshot not saved when appending appname with some languages  
+	▪ 1b3c42a2a47 Screenshot: append app name to filename  
+	▪ 5689bd1bcd5 Remove ticker text for screenshot saving notification.  
+	▪ ff47597b29c Grant read/write permissions on share screenshot.  
+	▪ 5305b8d6a46 Show a toast when a screenshot is taken and power saver is on.  
+	▪ 1cb3017fa69 Log screenshot exceptions.  
+	▪ 9f173e77c7e Grant Uri permissions for new screenshots.  
+	▪ 404ac046929 Add signature Spoofing permission  
+	▪ 5d35841f1dc base: Fix OnePlusCamera HDR Mode  
+	▪ f106639ba0b Add missing isShellUser check  
 
-### ▪ project packages/apps/Settings/  
- ▪ a6835a16f6 Change maintainer for op3  
- ▪ 37d6573810 Disable duplicate camera double tap gesture  
- ▪ fce6a416bd Remove duplicate music visualizer and blur entry  
- ▪ c45011680f Revert "Smart Pixels [2/2]"  
- ▪ 811aeb8ce8 Smart Pixels [2/2]  
- ▪ 484893dc4c Why not  
- ▪ 1b3120aa4e Screen off Animations [2/2]  
- ▪ e2c7d4aadc Disable camera shutter and screenshot sound peventing audio leak [2/2]  
- ▪ 0d89332f91 Enable toast app icon by default  
- ▪ 1485c6a500 Enable random configurations summary by default  
- ▪ 48b6aed6c8 Reduce screenshot delat to 100ms  
- ▪ 0212d8be65 Enable Statusbar Brightness control by default  
- ▪ 29a4f8e94d Enable Burnin Protection by default  
- ▪ c8aa6c8740 Enable Gesture settings entry also add preview videos Change-Id: I5cead016e668fd67c29fec4ce378804beb19173d  
- ▪ 5c32243f34 add additional battery saver steps  
- ▪ 5db1c55973 Partially pick 5875669bc19ac8fe8a9cb20995dcd2da9c6cbbc9  
- ▪ 8ce7efc53c SQUASH: Remove magisk manager from settings.  
- ▪ 31c340c50b Enable the filterTouchesWhenObscured in Special app access  
+### project packages/apps/Settings/  
+	▪ a6835a16f6 Change maintainer for op3  
+	▪ 37d6573810 Disable duplicate camera double tap gesture  
+	▪ fce6a416bd Remove duplicate music visualizer and blur entry  
+	▪ c45011680f Revert "Smart Pixels [2/2]"  
+	▪ 811aeb8ce8 Smart Pixels [2/2]  
+	▪ 484893dc4c Why not  
+	▪ 1b3120aa4e Screen off Animations [2/2]  
+	▪ e2c7d4aadc Disable camera shutter and screenshot sound peventing audio leak [2/2]  
+	▪ 0d89332f91 Enable toast app icon by default  
+	▪ 1485c6a500 Enable random configurations summary by default  
+	▪ 48b6aed6c8 Reduce screenshot delat to 100ms  
+	▪ 0212d8be65 Enable Statusbar Brightness control by default  
+	▪ 29a4f8e94d Enable Burnin Protection by default  
+	▪ c8aa6c8740 Enable Gesture settings entry also add preview videos Change-Id: I5cead016e668fd67c29fec4ce378804beb19173d  
+	▪ 5c32243f34 add additional battery saver steps  
+	▪ 5db1c55973 Partially pick 5875669bc19ac8fe8a9cb20995dcd2da9c6cbbc9  
+	▪ 8ce7efc53c SQUASH: Remove magisk manager from settings.  
+	▪ 31c340c50b Enable the filterTouchesWhenObscured in Special app access  
 
-### ▪ project system/core/  
- ▪ 73ad6d4a Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
-
+### project system/core/  
+	▪ 73ad6d4a Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
 
 
   ## ▼ October 31, 2018
