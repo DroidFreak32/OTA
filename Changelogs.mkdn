@@ -56,6 +56,9 @@
 	▪ 0b6bbd70c3fc Use ccache to compile kernel  
 	▪ f46d371eb30a Merge branch 'linux-3.18.y' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into cm-14.1-sultan-f2fs-stable  
 
+### project packages/apps/Settings/  
+	▪ 4517c3c7a0 Settings: Fix App sidebar content crashing on Slim recents settings. 
+
 ## ▼ 11/03/2020
 
 
