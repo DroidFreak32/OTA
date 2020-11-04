@@ -113,369 +113,367 @@
 	▪ 73ad6d4a Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
 
 
-  ## ▼ October 31, 2018
+## ▼ October 31, 2018
 
 
- ### ▪ project frameworks/av/  
- ▪ e30c57e43 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat  
+### project frameworks/av/  
+	▪ e30c57e43 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat  
 
- ### ▪ project frameworks/base/  
- ▪ d88f9b8035d Disable camera shutter and screenshot sound peventing audio leak [1/2]  
- ▪ f81ad23e075 DocumentsUI: Set up the standalone file manager for now  
- ▪ 24200b8077b Screenshot: Append app name after the screenshot date.  
- ▪ 8f5b86a6848 Fix screenshot not saved when appending appname with some languages  
- ▪ b6cc3327f1d Screenshot: append app name to filename  
- ▪ 06d93ab4dc9 Remove ticker text for screenshot saving notification.  
- ▪ d322fb374a6 Grant read/write permissions on share screenshot.  
- ▪ dd1fe1eeb76 Show a toast when a screenshot is taken and power saver is on.  
- ▪ 9d75c2f21ec Log screenshot exceptions.  
- ▪ b38f0092fb8 Grant Uri permissions for new screenshots.  
- ▪ ebd6e2a575f Add signature Spoofing permission  
- ▪ 3268a8cb6fc base: Fix OnePlusCamera HDR Mode  
- ▪ 9a5c633f7c1 Fix crash during cursor moving on BiDi text  
- ▪ e92fd33853f DO NOT MERGE. Persistable Uri grants still require permissions.  
- ▪ cd6483c739b Always create grant structures when persistable.  
- ▪ 9aec95f86a1 Optimise the hit test algorithm  
- ▪ 3447dbf952c Add support for search in DownloadManager.  
- ▪ 1dc3055aed0 DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.  
- ▪ 6a79957a415 DO NOT MERGE. Execute "strict" queries with extra parentheses.  
+### project frameworks/base/  
+	▪ d88f9b8035d Disable camera shutter and screenshot sound peventing audio leak [1/2]  
+	▪ f81ad23e075 DocumentsUI: Set up the standalone file manager for now  
+	▪ 24200b8077b Screenshot: Append app name after the screenshot date.  
+	▪ 8f5b86a6848 Fix screenshot not saved when appending appname with some languages  
+	▪ b6cc3327f1d Screenshot: append app name to filename  
+	▪ 06d93ab4dc9 Remove ticker text for screenshot saving notification.  
+	▪ d322fb374a6 Grant read/write permissions on share screenshot.  
+	▪ dd1fe1eeb76 Show a toast when a screenshot is taken and power saver is on.  
+	▪ 9d75c2f21ec Log screenshot exceptions.  
+	▪ b38f0092fb8 Grant Uri permissions for new screenshots.  
+	▪ ebd6e2a575f Add signature Spoofing permission  
+	▪ 3268a8cb6fc base: Fix OnePlusCamera HDR Mode  
+	▪ 9a5c633f7c1 Fix crash during cursor moving on BiDi text  
+	▪ e92fd33853f DO NOT MERGE. Persistable Uri grants still require permissions.  
+	▪ cd6483c739b Always create grant structures when persistable.  
+	▪ 9aec95f86a1 Optimise the hit test algorithm  
+	▪ 3447dbf952c Add support for search in DownloadManager.  
+	▪ 1dc3055aed0 DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.  
+	▪ 6a79957a415 DO NOT MERGE. Execute "strict" queries with extra parentheses.  
 
- ### ▪ project hardware/qcom/audio-caf/msm8996/  
- ▪ 84cfc8975 hal: Use call state to ensure voice call start  
+### project hardware/qcom/audio-caf/msm8996/  
+	▪ 84cfc8975 hal: Use call state to ensure voice call start  
 
- ### ▪ project hardware/qcom/display-caf/msm8996/  
- ▪ 47b9abf12 Fix Buffer Overflow in Vendor Service display.qservice  
- ▪ c3a4fcdb8 hwc2: Validate input parcel values for few qclient methods.  
- ▪ 70a2c90f1 hwc: Validate input parcel values for few qclient methods  
- ▪ 2f561a43b gralloc1: Check input addresses for null  
- ▪ 0982b8efe hwc2: Fix NULL pointer dereference and out of bound access  
+### project hardware/qcom/display-caf/msm8996/  
+	▪ 47b9abf12 Fix Buffer Overflow in Vendor Service display.qservice  
+	▪ c3a4fcdb8 hwc2: Validate input parcel values for few qclient methods.  
+	▪ 70a2c90f1 hwc: Validate input parcel values for few qclient methods  
+	▪ 2f561a43b gralloc1: Check input addresses for null  
+	▪ 0982b8efe hwc2: Fix NULL pointer dereference and out of bound access  
 
- ### ▪ project hardware/qcom/media-caf/msm8996/  
- ▪ 8155900ac mm-video-v4l2: Protect buffer access and increase input buffer size  
+### project hardware/qcom/media-caf/msm8996/  
+	▪ 8155900ac mm-video-v4l2: Protect buffer access and increase input buffer size  
 
- ### ▪ project packages/apps/Settings/  
- ▪ 8e3e2fb69b Disable camera shutter and screenshot sound peventing audio leak [2/2]  
- ▪ 0cd4475d6d Enable toast app icon by default  
- ▪ e7e5fcc738 Enable random configurations summary by default  
- ▪ afd8309338 Reduce screenshot delat to 100ms  
- ▪ 520b216253 Enable Statusbar Brightness control by default  
- ▪ 3626bde7a7 Enable Burnin Protection by default  
- ▪ ed58d8ffe2 BACKPORT: Disable changing lock when device is not provisioned.  
+### project packages/apps/Settings/  
+	▪ 8e3e2fb69b Disable camera shutter and screenshot sound peventing audio leak [2/2]  
+	▪ 0cd4475d6d Enable toast app icon by default  
+	▪ e7e5fcc738 Enable random configurations summary by default  
+	▪ afd8309338 Reduce screenshot delat to 100ms  
+	▪ 520b216253 Enable Statusbar Brightness control by default  
+	▪ 3626bde7a7 Enable Burnin Protection by default  
+	▪ ed58d8ffe2 BACKPORT: Disable changing lock when device is not provisioned.  
 
- ### ▪ project vendor/cm/  
- ▪ 8bc1965e Update deskclock  
- ▪ c4260827 repopick: Try to fast-forward first  
+### project vendor/cm/  
+	▪ 8bc1965e Update deskclock  
+	▪ c4260827 repopick: Try to fast-forward first  
 
- ### ▪ project vendor/shishu/  
- ▪ 7170bee UPdate prebuilts  
+### project vendor/shishu/  
+	▪ 7170bee UPdate prebuilts  
 
- ## ▼ October 30, 2018
-
-
- ### ▪ project packages/providers/DownloadProvider/  
- ▪ 715c24a DO NOT MERGE. All untrusted selections must go through builder.  
-
- ## ▼ October 28, 2018
+## ▼ October 30, 2018
 
 
- ### ▪ project bionic/  
- ▪ 1f7e6da zoneinfo: Update tzdata to 2018g  
+### project packages/providers/DownloadProvider/  
+	▪ 715c24a DO NOT MERGE. All untrusted selections must go through builder.  
 
- ### ▪ project external/icu/  
- ▪ 7809bc2 icu: Update tzdata to 2018g  
-
- ## ▼ October 27, 2018
+## ▼ October 28, 2018
 
 
- ### ▪ project external/chromium-webview/  
- ▪ 2bbd3e5 Update webviews to Chromium 69.0.3497.109  
- ### ▪ project frameworks/av/
- ▪ e30c57e43 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+### project bionic/  
+	▪ 1f7e6da zoneinfo: Update tzdata to 2018g  
 
- ### ▪ project frameworks/base/
- ▪ d88f9b8035d Disable camera shutter and screenshot sound peventing audio leak [1/2]
- ▪ f81ad23e075 DocumentsUI: Set up the standalone file manager for now
- ▪ 24200b8077b Screenshot: Append app name after the screenshot date.
- ▪ 8f5b86a6848 Fix screenshot not saved when appending appname with some languages
- ▪ b6cc3327f1d Screenshot: append app name to filename
- ▪ 06d93ab4dc9 Remove ticker text for screenshot saving notification.
- ▪ d322fb374a6 Grant read/write permissions on share screenshot.
- ▪ dd1fe1eeb76 Show a toast when a screenshot is taken and power saver is on.
- ▪ 9d75c2f21ec Log screenshot exceptions.
- ▪ b38f0092fb8 Grant Uri permissions for new screenshots.
- ▪ ebd6e2a575f Add signature Spoofing permission
- ▪ 3268a8cb6fc base: Fix OnePlusCamera HDR Mode
- ▪ 9a5c633f7c1 Fix crash during cursor moving on BiDi text
- ▪ e92fd33853f DO NOT MERGE. Persistable Uri grants still require permissions.
- ▪ cd6483c739b Always create grant structures when persistable.
- ▪ 9aec95f86a1 Optimise the hit test algorithm
- ▪ 3447dbf952c Add support for search in DownloadManager.
- ▪ 1dc3055aed0 DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.
- ▪ 6a79957a415 DO NOT MERGE. Execute "strict" queries with extra parentheses.
+### project external/icu/  
+	▪ 7809bc2 icu: Update tzdata to 2018g  
 
- ### ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 84cfc8975 hal: Use call state to ensure voice call start
-
- ### ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 47b9abf12 Fix Buffer Overflow in Vendor Service display.qservice
- ▪ c3a4fcdb8 hwc2: Validate input parcel values for few qclient methods.
- ▪ 70a2c90f1 hwc: Validate input parcel values for few qclient methods
- ▪ 2f561a43b gralloc1: Check input addresses for null
- ▪ 0982b8efe hwc2: Fix NULL pointer dereference and out of bound access
-
- ### ▪ project hardware/qcom/media-caf/msm8996/
- ▪ 8155900ac mm-video-v4l2: Protect buffer access and increase input buffer size
-
- ### ▪ project packages/apps/Settings/
- ▪ 8e3e2fb69b Disable camera shutter and screenshot sound peventing audio leak [2/2]
- ▪ 0cd4475d6d Enable toast app icon by default
- ▪ e7e5fcc738 Enable random configurations summary by default
- ▪ afd8309338 Reduce screenshot delat to 100ms
- ▪ 520b216253 Enable Statusbar Brightness control by default
- ▪ 3626bde7a7 Enable Burnin Protection by default
- ▪ ed58d8ffe2 BACKPORT: Disable changing lock when device is not provisioned.
-
- ### ▪ project vendor/cm/
- ▪ 8bc1965e Update deskclock
- ▪ c4260827 repopick: Try to fast-forward first
-
- ### ▪ project vendor/shishu/
- ▪ 7170bee UPdate prebuilts
-
- ## ▼ October 31, 2018
+## ▼ October 27, 2018
 
 
- ### ▪ project packages/providers/DownloadProvider/
- ▪ 715c24a DO NOT MERGE. All untrusted selections must go through builder.
+### project external/chromium-webview/  
+	▪ 2bbd3e5 Update webviews to Chromium 69.0.3497.109  
+### project frameworks/av/
+	▪ e30c57e43 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
 
- ## ▼ October 28, 2018
+### project frameworks/base/
+	▪ d88f9b8035d Disable camera shutter and screenshot sound peventing audio leak [1/2]
+	▪ f81ad23e075 DocumentsUI: Set up the standalone file manager for now
+	▪ 24200b8077b Screenshot: Append app name after the screenshot date.
+	▪ 8f5b86a6848 Fix screenshot not saved when appending appname with some languages
+	▪ b6cc3327f1d Screenshot: append app name to filename
+	▪ 06d93ab4dc9 Remove ticker text for screenshot saving notification.
+	▪ d322fb374a6 Grant read/write permissions on share screenshot.
+	▪ dd1fe1eeb76 Show a toast when a screenshot is taken and power saver is on.
+	▪ 9d75c2f21ec Log screenshot exceptions.
+	▪ b38f0092fb8 Grant Uri permissions for new screenshots.
+	▪ ebd6e2a575f Add signature Spoofing permission
+	▪ 3268a8cb6fc base: Fix OnePlusCamera HDR Mode
+	▪ 9a5c633f7c1 Fix crash during cursor moving on BiDi text
+	▪ e92fd33853f DO NOT MERGE. Persistable Uri grants still require permissions.
+	▪ cd6483c739b Always create grant structures when persistable.
+	▪ 9aec95f86a1 Optimise the hit test algorithm
+	▪ 3447dbf952c Add support for search in DownloadManager.
+	▪ 1dc3055aed0 DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.
+	▪ 6a79957a415 DO NOT MERGE. Execute "strict" queries with extra parentheses.
+
+### project hardware/qcom/audio-caf/msm8996/
+	▪ 84cfc8975 hal: Use call state to ensure voice call start
+
+### project hardware/qcom/display-caf/msm8996/
+	▪ 47b9abf12 Fix Buffer Overflow in Vendor Service display.qservice
+	▪ c3a4fcdb8 hwc2: Validate input parcel values for few qclient methods.
+	▪ 70a2c90f1 hwc: Validate input parcel values for few qclient methods
+	▪ 2f561a43b gralloc1: Check input addresses for null
+	▪ 0982b8efe hwc2: Fix NULL pointer dereference and out of bound access
+
+### project hardware/qcom/media-caf/msm8996/
+	▪ 8155900ac mm-video-v4l2: Protect buffer access and increase input buffer size
+
+### project packages/apps/Settings/
+	▪ 8e3e2fb69b Disable camera shutter and screenshot sound peventing audio leak [2/2]
+	▪ 0cd4475d6d Enable toast app icon by default
+	▪ e7e5fcc738 Enable random configurations summary by default
+	▪ afd8309338 Reduce screenshot delat to 100ms
+	▪ 520b216253 Enable Statusbar Brightness control by default
+	▪ 3626bde7a7 Enable Burnin Protection by default
+	▪ ed58d8ffe2 BACKPORT: Disable changing lock when device is not provisioned.
+
+### project vendor/cm/
+	▪ 8bc1965e Update deskclock
+	▪ c4260827 repopick: Try to fast-forward first
+
+### project vendor/shishu/
+	▪ 7170bee UPdate prebuilts
+
+## ▼ October 31, 2018
 
 
- ### ▪ project bionic/
- ▪ 1f7e6da zoneinfo: Update tzdata to 2018g
+### project packages/providers/DownloadProvider/
+	▪ 715c24a DO NOT MERGE. All untrusted selections must go through builder.
 
- ### ▪ project external/icu/
- ▪ 7809bc2 icu: Update tzdata to 2018g
-
- ## ▼ October 27, 2018
+## ▼ October 28, 2018
 
 
- ### ▪ project external/chromium-webview/
- ▪ 2bbd3e5 Update webviews to Chromium 69.0.3497.109
+### project bionic/
+	▪ 1f7e6da zoneinfo: Update tzdata to 2018g
+
+### project external/icu/
+	▪ 7809bc2 icu: Update tzdata to 2018g
+
+## ▼ October 27, 2018
 
 
+### project external/chromium-webview/
+	▪ 2bbd3e5 Update webviews to Chromium 69.0.3497.109
 
 
-  ## ▼ Sep 24, 2018  
+## ▼ Sep 24, 2018  
 
 
- ### ▪ project build/  
- ▪ f9396d786 Security string to 2018-09-05  
+### project build/  
+	▪ f9396d786 Security string to 2018-09-05  
 
- ### ▪ project device/oneplus/oneplus3/  
- ▪ 8c871a5 op3: Remove config_sms_force_7bit_encoding  
+### project device/oneplus/oneplus3/  
+	▪ 8c871a5 op3: Remove config_sms_force_7bit_encoding  
 
- ### ▪ project frameworks/av/  
- ▪ 58939dd78 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat  
+### project frameworks/av/  
+	▪ 58939dd78 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat  
 
- ### ▪ project frameworks/base/  
- ▪ 859694a3fb6 Add signature Spoofing permission  
- ▪ acbc75a2ccc base: Fix OnePlusCamera HDR Mode  
- ▪ fc5554a4fbb Backport Prevent shortcut info package name spoofing  
- ▪ 58defa8d94e Fix TrackInfo parcel write  
- ▪ a2358f2c3de Resolve inconsistent parcel read in NanoAppFilter  
+### project frameworks/base/  
+	▪ 859694a3fb6 Add signature Spoofing permission  
+	▪ acbc75a2ccc base: Fix OnePlusCamera HDR Mode  
+	▪ fc5554a4fbb Backport Prevent shortcut info package name spoofing  
+	▪ 58defa8d94e Fix TrackInfo parcel write  
+	▪ a2358f2c3de Resolve inconsistent parcel read in NanoAppFilter  
 
- ### ▪ project system/bt/  
- ▪ 9463240 DO NOT MERGE HFP: Fix out of bound access in phone number processing  
- ▪ c07896e Don't use Address after it was deleted  
- ▪ bcb7b44 HID Host: Check L2CAP packet data length  
- ▪ 7f2040a Add packet length checks in l2cble_process_sig_cmd  
- ▪ c9da230 Fix OOB read in process_l2cap_cmd  
+### project system/bt/  
+	▪ 9463240 DO NOT MERGE HFP: Fix out of bound access in phone number processing  
+	▪ c07896e Don't use Address after it was deleted  
+	▪ bcb7b44 HID Host: Check L2CAP packet data length  
+	▪ 7f2040a Add packet length checks in l2cble_process_sig_cmd  
+	▪ c9da230 Fix OOB read in process_l2cap_cmd  
 
- ### ▪ project vendor/shishu/  
- ▪ 78f15d5 Update FirefoxFocus apk  
+### project vendor/shishu/  
+	▪ 78f15d5 Update FirefoxFocus apk  
 
 
 ## ▼ Aug 18, 2018    
 
- ### ▪ project build/    
- ▪ d2a448488 Security string to 2018-08-05    
+### project build/    
+	▪ d2a448488 Security string to 2018-08-05    
 
- ### ▪ project frameworks/av/    
- ▪ ebeb48640 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat    
+### project frameworks/av/    
+	▪ ebeb48640 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat    
 
- ### ▪ project frameworks/base/    
- ▪ 5b630ef2204 Make safe label more safe    
- ▪ 81cb0252186 ResStringPool: Prevenet boot loop from se fix    
- ▪ 1ce6e5f1537 Fix DynamicRefTable::load security bug      
+### project frameworks/base/    
+	▪ 5b630ef2204 Make safe label more safe    
+	▪ 81cb0252186 ResStringPool: Prevenet boot loop from se fix    
+	▪ 1ce6e5f1537 Fix DynamicRefTable::load security bug      
 
- ### ▪ project packages/apps/Messaging/    
- ▪ 00b4936 Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD    
+### project packages/apps/Messaging/    
+	▪ 00b4936 Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD    
 
- ### ▪ project packages/apps/PackageInstaller/    
- ▪ f56780c Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat    
+### project packages/apps/PackageInstaller/    
+	▪ f56780c Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat    
 
- ### ▪ project packages/apps/Settings/    
- ▪ 0d0c83cb43 Merge translations of Bluetooth confirmation text    
- ▪ 23a1b39f9b DO NOT MERGE Fix unexpected behavior in Bluetooth pairing    
+### project packages/apps/Settings/    
+	▪ 0d0c83cb43 Merge translations of Bluetooth confirmation text    
+	▪ 23a1b39f9b DO NOT MERGE Fix unexpected behavior in Bluetooth pairing    
 
- ### ▪ project packages/services/Telephony/    
- ▪ 8e906e16 Fix potential NPE in EmergencyCallbackModeExitDialog.    
- ▪ edb47cfe DO NOT MERGE Revise security requirements for TelephonyManager#endCall.    
+### project packages/services/Telephony/    
+	▪ 8e906e16 Fix potential NPE in EmergencyCallbackModeExitDialog.    
+	▪ edb47cfe DO NOT MERGE Revise security requirements for TelephonyManager#endCall.    
 
- ### ▪ project external/chromium-webview/    
- ▪ bca7359 Updated webviews to Chromium 67.0.3396.87    
+### project external/chromium-webview/    
+	▪ bca7359 Updated webviews to Chromium 67.0.3396.87    
 
 
- ## ▼ July 26, 2018
+## ▼ July 26, 2018
  
- ### ▪ project frameworks/base/  
- ▪ f29f01469a9 livedisplay: Allow tile creation before boot completed phase [2/2]  
+### project frameworks/base/  
+	▪ f29f01469a9 livedisplay: Allow tile creation before boot completed phase [2/2]  
 
- ### ▪ project packages/apps/Contacts/  
- ▪ 370e9a856 Contacts: Don't crash if Blocked Number Storage is disabled  
+### project packages/apps/Contacts/  
+	▪ 370e9a856 Contacts: Don't crash if Blocked Number Storage is disabled  
 
- ### ▪ project packages/apps/ContactsCommon/  
- ▪ aff1c3f9 ContactsCommon: Fix possible NPE  
- ▪ 2c668461 Allow to edit the SIP field of contacts stored locally  
- ▪ 7803fc62 Export only selected contact, not all contacts  
- ▪ 4eb7f56f Add support to export multi contacts to Vcard  
+### project packages/apps/ContactsCommon/  
+	▪ aff1c3f9 ContactsCommon: Fix possible NPE  
+	▪ 2c668461 Allow to edit the SIP field of contacts stored locally  
+	▪ 7803fc62 Export only selected contact, not all contacts  
+	▪ 4eb7f56f Add support to export multi contacts to Vcard  
 
- ### ▪ project packages/apps/Dialer/  
- ▪ e0b0a8775 InCallUI: Keep button states in sync with call properties  
- ▪ e3cef1137 InCallUI: Refactor primary call info card  
- ▪ 7e27d49de Fix incorrect number formatting in call stats details.  
- ▪ cfeb7a9ac Remove redundant layout item.  
- ▪ c102bd710 InCallUI: improve in-call UI for different supported routes  
- ▪ 873d6f784 Dialer: Fix possible NPE  
- ▪ f8435a19c Dialer: comply with EU's GDPR  
- ▪ 442ce16b8 Don't crash if Blocked Number Storage is disabled  
- ▪ ce7cb7e1e Dialer: Fix string issues  
- ▪ 62f5c35f3 Dialer: Fix translation issues  
+### project packages/apps/Dialer/  
+	▪ e0b0a8775 InCallUI: Keep button states in sync with call properties  
+	▪ e3cef1137 InCallUI: Refactor primary call info card  
+	▪ 7e27d49de Fix incorrect number formatting in call stats details.  
+	▪ cfeb7a9ac Remove redundant layout item.  
+	▪ c102bd710 InCallUI: improve in-call UI for different supported routes  
+	▪ 873d6f784 Dialer: Fix possible NPE  
+	▪ f8435a19c Dialer: comply with EU's GDPR  
+	▪ 442ce16b8 Don't crash if Blocked Number Storage is disabled  
+	▪ ce7cb7e1e Dialer: Fix string issues  
+	▪ 62f5c35f3 Dialer: Fix translation issues  
 
- ### ▪ project packages/apps/Messaging/  
- ▪ 6cae4fe Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
+### project packages/apps/Messaging/  
+	▪ 6cae4fe Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
 
- ### ▪ project packages/apps/PackageInstaller/  
- ▪ c678bdce Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD  
+### project packages/apps/PackageInstaller/  
+	▪ c678bdce Merge remote-tracking branch 'LineageOS/cm-14.1' into HEAD  
 
- ### ▪ project packages/apps/PhoneCommon/  
- ▪ 9671396 Adjust SpecialCharInternalLayoutStyle to match other buttons  
+### project packages/apps/PhoneCommon/  
+	▪ 9671396 Adjust SpecialCharInternalLayoutStyle to match other buttons  
 
- ### ▪ project packages/apps/Settings/  
- ▪ 94baf3d102 Title is different after tapping "Memory used by apps"  
- ▪ 701739ea34 settings: wifi: Default to numeric keyboard for static IP items  
- ▪ 668e373e77 PrivacyGuard: skip icon lookup for OP_NONE  
- ▪ 5a423824a7 PrivacyGuard: add a couple more missing icons  
- ▪ a862c42d72 Privacy Guard: Add icon for VPN permission  
- ▪ 00c6c8515d AppOps: Add missing copyrights to icons  
- ▪ a8aff396e5 AppOps: Add missing icons for alarm, bluetooth, stats, toast  
- ▪ 0c9cc087d3 AppOpsDetails: Display all missing ops  
- ▪ 58193666e9 FingerprintEnrollFindSensor: Don't overlay front for side sensors  
- ▪ c5582c2c34 DevelopmentSettings: Fix possible NPE  
- ▪ 1051f63138 DevelopmentSettings: Hide OEM unlock by default  
- ▪ d5f8634532 AppOps: Refactor code  
+### project packages/apps/Settings/  
+	▪ 94baf3d102 Title is different after tapping "Memory used by apps"  
+	▪ 701739ea34 settings: wifi: Default to numeric keyboard for static IP items  
+	▪ 668e373e77 PrivacyGuard: skip icon lookup for OP_NONE  
+	▪ 5a423824a7 PrivacyGuard: add a couple more missing icons  
+	▪ a862c42d72 Privacy Guard: Add icon for VPN permission  
+	▪ 00c6c8515d AppOps: Add missing copyrights to icons  
+	▪ a8aff396e5 AppOps: Add missing icons for alarm, bluetooth, stats, toast  
+	▪ 0c9cc087d3 AppOpsDetails: Display all missing ops  
+	▪ 58193666e9 FingerprintEnrollFindSensor: Don't overlay front for side sensors  
+	▪ c5582c2c34 DevelopmentSettings: Fix possible NPE  
+	▪ 1051f63138 DevelopmentSettings: Hide OEM unlock by default  
+	▪ d5f8634532 AppOps: Refactor code  
 
- ### ▪ project packages/services/Telecomm/  
- ▪ 536c6e20 CallAudioRouteStateMachine: add "noearpiece" build characteristic  
- ▪ 732411b6 Telecomm: Account for default data sub ID when setting MSIM audio params  
- ▪ 1da23f88 Fix unable to swap calls through BT in CDMA  
- ▪ 1bdea027 Fix InCall UI display issue for SIP and normal calls  
- ▪ 3a548b12 SensitivePhoneNumbers: Fix number comparison  
- ▪ 8c77f941 SensitivePhoneNumbers: Handle lists of MCC codes  
+### project packages/services/Telecomm/  
+	▪ 536c6e20 CallAudioRouteStateMachine: add "noearpiece" build characteristic  
+	▪ 732411b6 Telecomm: Account for default data sub ID when setting MSIM audio params  
+	▪ 1da23f88 Fix unable to swap calls through BT in CDMA  
+	▪ 1bdea027 Fix InCall UI display issue for SIP and normal calls  
+	▪ 3a548b12 SensitivePhoneNumbers: Fix number comparison  
+	▪ 8c77f941 SensitivePhoneNumbers: Handle lists of MCC codes  
 
- ### ▪ project packages/services/Telephony/  
- ▪ 309fbcbe Telephony: Don't rely on a possibly invalid phoneId  
- ▪ 172aa76e NetworkSelection: Improve home network display  
- ▪ 9187e4d7 Telephony: Add ERI configuration for U.S. Cellular  
- ▪ d9402085 Fix phone process crash due to phone being null.  
- ▪ 5a7629b2 Telephony: NetworkSelection: Don't show blank "available networks"  
- ▪ d81d4e3e Telephony: Fix wrong en-translations  
- ▪ 37336a6c Telephony: Workaround for MWI on Sprint  
+### project packages/services/Telephony/  
+	▪ 309fbcbe Telephony: Don't rely on a possibly invalid phoneId  
+	▪ 172aa76e NetworkSelection: Improve home network display  
+	▪ 9187e4d7 Telephony: Add ERI configuration for U.S. Cellular  
+	▪ d9402085 Fix phone process crash due to phone being null.  
+	▪ 5a7629b2 Telephony: NetworkSelection: Don't show blank "available networks"  
+	▪ d81d4e3e Telephony: Fix wrong en-translations  
+	▪ 37336a6c Telephony: Workaround for MWI on Sprint  
 
- ### ▪ project vendor/cm/  
- ▪ 923ce7e7 repopick: Update SSH queries result to match HTTP queries  
- ▪ f3ac35e9 sensitive_pn: Add sensitive phone number for Macedonia  
- ▪ b6bf1c81 cm: Set TARGET_CRYPTFS_HW_PATH if HW crypto is enabled  
- ▪ 6dab3462 prebuilts: Fix Telfort apn  
- ▪ 30a179cb cm: extract_utils: Fix rootfs targets after 72765e4cc950d90abb730bc62e3f5f9eeba5aa4e  
- ▪ 97966722 Fix Android "Work Profiles" also known as AfW 'Android for Work'  
- ▪ 23a77036 build: dt_image: support prebuilt DT images  
- ▪ 5df754b8 write_makefiles: fix paths in BUILD_PREBUILT with destination  
- ▪ 0f8a8eed repopick: Allow to pick changes by URL  
- ▪ 779c2e5c repopick: Actually print the patchset number  
- ▪ c1f16396 repopick: Ignore the trailing slash in change numbers  
- ▪ bbd3889b repopick: Try to keep the changes sorted  
- ▪ 9e522c25 apn: Add APN for spusu MVNO  
- ▪ 3c62d664 cm: Allow IPv6 on roaming for T-Mobile US APNs  
- ▪ 2ccbe102 cm: Consolidate T-Mobile US APNs  
- ▪ 172e56d4 Added Cape Verde carrier CVMóvel default APN as configured by sales agents  
- ▪ f2d0c802 Add APN for iD Mobile UK MVNO  
- ▪ f8e577cd ATV: Default double tap on home to the recents menu  
- ▪ a12e297e sensitive_pn: added Belgium & Switzerland  
- ▪ 370c8772 Updated Syma APN  
- ▪ 16ca8f06 overlay: frameworks: allow gms to access persistent data partition  
- ▪ d4ddafe9 apns-conf: Update Ukrainian APNs  
- ▪ 3c3e878c apn: Remove "hipri,dun" from Bouygues Telecom  
- ▪ 54186714 Add M-tel (BIH) APN for M-tel Frend data plan  
- ▪ 734f7c60 repopick: use https by default for repopicking  
- ▪ 21e78ca4 repopick: support auth'ing to gerrit and picking drafts  
- ▪ e3adcf6e sensitive_pn: Fix typo in sensitive phone number  
- ▪ 441a99c3 sensitive_pn: Add some more numbers for Canada  
- ▪ bed5d25d sensitive_pn: Sort file  
- ▪ f6e99bb6 extract_utils: Use temporary folder for system dump  
- ▪ 383e9adc repopick: Support overriding the default commits count to check  
- ▪ 02780a69 vendor: enable multi-user across all devices  
- ▪ ab96f9bc overlay: Enable “Panic Detection” mode  
- ▪ 44dae689 extract-files: Bring back old behavior for SRC  
- ▪ fdb892eb templates: Default to sanitize vendor folder during extraction  
- ▪ 19c8f1fc templates: Update to show usage for new extract_files features  
- ▪ cbb13d98 extract_utils: Fix pinning when not cleaning vendor dir  
- ▪ 4692b4d6 sensitive_pn: Add BG human trafficking and domestic abuse hotlines  
- ▪ 537294d0 sensitive_pn: add EU 116 Numbers  
- ▪ d1310152 sensitive_pn: Include France DOM (Overseas regions) codes  
- ▪ 5b8bbf9c Update Prebuilt APKs  
- ▪ 8f369050 Update Magisk to 16.0 and MagiskManager to 5.8.3  
- ▪ b0150776 Remove NexusLauncher  
+### project vendor/cm/  
+	▪ 923ce7e7 repopick: Update SSH queries result to match HTTP queries  
+	▪ f3ac35e9 sensitive_pn: Add sensitive phone number for Macedonia  
+	▪ b6bf1c81 cm: Set TARGET_CRYPTFS_HW_PATH if HW crypto is enabled  
+	▪ 6dab3462 prebuilts: Fix Telfort apn  
+	▪ 30a179cb cm: extract_utils: Fix rootfs targets after 72765e4cc950d90abb730bc62e3f5f9eeba5aa4e  
+	▪ 97966722 Fix Android "Work Profiles" also known as AfW 'Android for Work'  
+	▪ 23a77036 build: dt_image: support prebuilt DT images  
+	▪ 5df754b8 write_makefiles: fix paths in BUILD_PREBUILT with destination  
+	▪ 0f8a8eed repopick: Allow to pick changes by URL  
+	▪ 779c2e5c repopick: Actually print the patchset number  
+	▪ c1f16396 repopick: Ignore the trailing slash in change numbers  
+	▪ bbd3889b repopick: Try to keep the changes sorted  
+	▪ 9e522c25 apn: Add APN for spusu MVNO  
+	▪ 3c62d664 cm: Allow IPv6 on roaming for T-Mobile US APNs  
+	▪ 2ccbe102 cm: Consolidate T-Mobile US APNs  
+	▪ 172e56d4 Added Cape Verde carrier CVMóvel default APN as configured by sales agents  
+	▪ f2d0c802 Add APN for iD Mobile UK MVNO  
+	▪ f8e577cd ATV: Default double tap on home to the recents menu  
+	▪ a12e297e sensitive_pn: added Belgium & Switzerland  
+	▪ 370c8772 Updated Syma APN  
+	▪ 16ca8f06 overlay: frameworks: allow gms to access persistent data partition  
+	▪ d4ddafe9 apns-conf: Update Ukrainian APNs  
+	▪ 3c3e878c apn: Remove "hipri,dun" from Bouygues Telecom  
+	▪ 54186714 Add M-tel (BIH) APN for M-tel Frend data plan  
+	▪ 734f7c60 repopick: use https by default for repopicking  
+	▪ 21e78ca4 repopick: support auth'ing to gerrit and picking drafts  
+	▪ e3adcf6e sensitive_pn: Fix typo in sensitive phone number  
+	▪ 441a99c3 sensitive_pn: Add some more numbers for Canada  
+	▪ bed5d25d sensitive_pn: Sort file  
+	▪ f6e99bb6 extract_utils: Use temporary folder for system dump  
+	▪ 383e9adc repopick: Support overriding the default commits count to check  
+	▪ 02780a69 vendor: enable multi-user across all devices  
+	▪ ab96f9bc overlay: Enable “Panic Detection” mode  
+	▪ 44dae689 extract-files: Bring back old behavior for SRC  
+	▪ fdb892eb templates: Default to sanitize vendor folder during extraction  
+	▪ 19c8f1fc templates: Update to show usage for new extract_files features  
+	▪ cbb13d98 extract_utils: Fix pinning when not cleaning vendor dir  
+	▪ 4692b4d6 sensitive_pn: Add BG human trafficking and domestic abuse hotlines  
+	▪ 537294d0 sensitive_pn: add EU 116 Numbers  
+	▪ d1310152 sensitive_pn: Include France DOM (Overseas regions) codes  
+	▪ 5b8bbf9c Update Prebuilt APKs  
+	▪ 8f369050 Update Magisk to 16.0 and MagiskManager to 5.8.3  
+	▪ b0150776 Remove NexusLauncher  
 
- ### ▪ project vendor/cmsdk/  
- ▪ 449d889 cmsdk: Add Network Traffic [2/3]  
- ▪ 53ae42a cmsdk: Add CMStatusBarItem interfaces  
- ▪ 3f39d6a CMSettingsProvider: Fix default setting for DEV_FORCE_SHOW_NAVBAR  
- ▪ 7a45e34 livedisplay: Allow tile creation before boot completed phase [1/2]  
- ▪ e8ea545 cmsdk: fix picture adjustment from depending on color balance  
- ▪ 8e353ea Remove obsolete values-be translations  
+### project vendor/cmsdk/  
+	▪ 449d889 cmsdk: Add Network Traffic [2/3]  
+	▪ 53ae42a cmsdk: Add CMStatusBarItem interfaces  
+	▪ 3f39d6a CMSettingsProvider: Fix default setting for DEV_FORCE_SHOW_NAVBAR  
+	▪ 7a45e34 livedisplay: Allow tile creation before boot completed phase [1/2]  
+	▪ e8ea545 cmsdk: fix picture adjustment from depending on color balance  
+	▪ 8e353ea Remove obsolete values-be translations  
 
- ## ▼ July 25, 2018
+## ▼ July 25, 2018
 
 
- ### ▪ project build/  
- ▪ 34c8917 Security string to 2018-07-05  
+### project build/  
+	▪ 34c8917 Security string to 2018-07-05  
 
- ### ▪ project frameworks/av/  
- ▪ 040842a Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
+### project frameworks/av/  
+	▪ 040842a Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
 
- ### ▪ project frameworks/base/  
- ▪ 33eec39b477 DO NOT MERGE Truncate newline and tab characters in BluetoothDevice name  
- ▪ 539dd170050 Rework thumbnail cleanup  
- ▪ c6b9ae7875f ResStringPool: Fix security vulnerability  
- ▪ 1aa10f681f5 Add NETWORK_STACK permission  
- ▪ 48e947413fc Copy PermissionChecker from support lib and use in RcognitionService  
- ▪ eb78fa62f19 Fixed Security Vulnerability of DcParamObject  
- ▪ b2ca632d6c7 Add permission check to setAllowOnlyVpnForUids  
- ▪ 8821fd45a30 Verify last array's length in readFromParcel  
- ▪ 944556081e8 Update internal ViewPager's SavedState to match Support Library version  
- ▪ 9fd703d6d24 Adjust URI host parsing to stop on \ character.  
- ▪ 9f8a137fb8b Check for null-terminator in ResStringPool::string8At  
- ▪ de6994fe57c Fix VerifyCredentialResponse parcelling code  
- ▪ 8ce0e08691b [RTT] ParcelableRttResults parcel code fix  
- ▪ 04c6ca5fd95 DO NOT MERGE Backporting potential usb tapjacking precaution.  
- ▪ a974dfb349a mtp: fix double free of thumbnail data  
- ▪ be982856d32 Throw OOME if Bitmap.nativeCreate fails  
- ▪ 5a325baec85 Adjust Uri host parsing to use last instead of first @.  
+### project frameworks/base/  
+	▪ 33eec39b477 DO NOT MERGE Truncate newline and tab characters in BluetoothDevice name  
+	▪ 539dd170050 Rework thumbnail cleanup  
+	▪ c6b9ae7875f ResStringPool: Fix security vulnerability  
+	▪ 1aa10f681f5 Add NETWORK_STACK permission  
+	▪ 48e947413fc Copy PermissionChecker from support lib and use in RcognitionService  
+	▪ eb78fa62f19 Fixed Security Vulnerability of DcParamObject  
+	▪ b2ca632d6c7 Add permission check to setAllowOnlyVpnForUids  
+	▪ 8821fd45a30 Verify last array's length in readFromParcel  
+	▪ 944556081e8 Update internal ViewPager's SavedState to match Support Library version  
+	▪ 9fd703d6d24 Adjust URI host parsing to stop on \ character.  
+	▪ 9f8a137fb8b Check for null-terminator in ResStringPool::string8At  
+	▪ de6994fe57c Fix VerifyCredentialResponse parcelling code  
+	▪ 8ce0e08691b [RTT] ParcelableRttResults parcel code fix  
+	▪ 04c6ca5fd95 DO NOT MERGE Backporting potential usb tapjacking precaution.  
+	▪ a974dfb349a mtp: fix double free of thumbnail data  
+	▪ be982856d32 Throw OOME if Bitmap.nativeCreate fails  
+	▪ 5a325baec85 Adjust Uri host parsing to use last instead of first @.  
 
- ### ▪ project frameworks/native/  
- ▪ 7addbf4 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
+### project frameworks/native/  
+	▪ 7addbf4 Merge remote-tracking branch 'LineageOS/cm-14.1' into nougat  
 
 
 
