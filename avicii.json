@@ -6,7 +6,7 @@
       "id": "2500c5c2b579cbfd34f5e96cd3fb6d857437e5c683cbc47c4a60e28b51b32849",
       "romtype": "Unofficial",
       "size": 1147879093,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.4-20201207-avicii-Unofficial.zip",
+      "url": "http://192.168.2.11:8080/RROS-Q-8.6.4-20201207-avicii-Unofficial.zip",
       "version": "8.6.4"
     }
   ]
