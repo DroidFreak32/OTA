@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1607602680,
-      "filename": "RROS-Q-8.6.4-20201210-avicii-Unofficial.zip",
-      "id": "b4dbdbd24140cd88c0cdaa2a8036bc31db601397ee0b4ee9aa696d464aa09811",
+      "datetime": 1607668610,
+      "filename": "RROS-Q-8.6.4-20201211-avicii-Unofficial.zip",
+      "id": "1d5f00be217c036479065452c54b26848fe6aa6a6deb928f456581934c78e193",
       "romtype": "Unofficial",
-      "size": 1147872893,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.4-20201210-avicii-Unofficial.zip",
+      "size": 1147878553,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.4-20201211-avicii-Unofficial.zip",
       "version": "8.6.4"
     }
   ]
