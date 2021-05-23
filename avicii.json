@@ -1,13 +1,22 @@
 {
   "response": [
     {
-      "datetime": 1621627420,
-      "filename": "DONOTDOWNLOAD_RROS-Q-8.6.7-20210522-avicii-Unofficial.zip",
+      "datetime": 1621811421,
+      "filename": "DONOTDOWNLOAD_RROS-Q-8.6.9-20210524-avicii-Unofficial.zip",
       "id": "5899f96ca76d3f4e5bde054ccd9873ae9a207efa283a51c181103fcba6ab9d7d",
       "romtype": "Unofficial",
       "size": 1752818343,
       "url": "https://github.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.7-20210522-avicii-Unofficial.zi",
-      "version": "8.6.7"
-    }
+      "version": "8.6.9"
+    },
+    {
+      "datetime": 1621811422,
+      "filename": "DONOTDOWNLOAD_RROS-Q-8.6.9-20210524-avicii-Unofficial.zip",
+      "id": "5899f96ca76d3f4e5bde054ccd9873ae9a207efa283a51c181103fcba6ab9d7d",
+      "romtype": "Unofficial",
+      "size": 1752818343,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.7-20210522-avicii-Unofficial.zi",
+      "version": "8.6.9"
+    },    
   ]
 }
