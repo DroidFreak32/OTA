@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1635530852,
-      "filename": "RROS-Q-8.7.3-20211015-avicii-Unofficial.zip",
-      "id": "3472b39e9aebda9431ddbfbc4d54022b4a6ded5cd4029d9e35477e5ef581f489",
+      "datetime": 1630530852,
+      "filename": "RROS-Q-8.6.9-20210902-avicii-Unofficial.zip",
+      "id": "61640f015e3dce16e182aa0ae7c29e806ddf28eb4231ae3ce705f9aca0094bff",
       "romtype": "Unofficial",
       "size": 1755567652,
-      "url": "https://gthub.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.9-20210902-avicii-Unofficial.zip",
-      "version": "8.7.3",
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/rr-q/RROS-Q-8.6.9-20210902-avicii-Unofficial.zip",
+      "version": "8.6.9",
       "buildtype": "Beta"
     }
   ]
