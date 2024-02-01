@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "datetime": 1706822860,
+      "datetime": 1706831120,
       "filename": "lineage-20.0-20240201-UNOFFICIAL-miatoll.zip",
-      "id": "69ce73fcfe0535c6a621b9200d75b1df3268b9ce1d1fc799a993fb2711665bab",
+      "id": "e01aabce9a112d07da4747b75636c09a103d56930db9a46d88800740cbe98f96",
       "romtype": "unofficial",
-      "size": 1179092948,
+      "size": 1179213856,
       "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-20.0-20240201-UNOFFICIAL-miatoll.zip",
       "version": "20.0"
     }
