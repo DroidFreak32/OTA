@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1707018676,
-      "filename": "lineage-20.0-20240204-UNOFFICIAL-miatoll.zip",
-      "id": "55c4d230255b6347dc01bacd383b1a1d1fb04331304fd7603bc91c34147257d0",
+      "datetime": 1708839125,
+      "filename": "lineage-21.0-20240225-UNOFFICIAL-miatoll.zip",
+      "id": "5acda469e2cbc23a078278fa145cae1a0f3c69bb91e9db8879a6df9755549be2",
       "romtype": "unofficial",
-      "size": 1179050864,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-20.0-20240204-UNOFFICIAL-miatoll.zip",
-      "version": "20.0"
+      "size": 1341585041,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-21.0-20240225-UNOFFICIAL-miatoll.zip",
+      "version": "21.0"
     }
   ]
 }
