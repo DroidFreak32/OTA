@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1707675837,
+      "filename": "x86.tzst",
+      "id": "",
+      "romtype": "unofficial",
+      "size": 680520132,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/x86.tzst",
+      "version": "20.0"
+    }
+  ]
+}

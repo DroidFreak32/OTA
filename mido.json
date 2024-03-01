@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1708432700,
+      "filename": "lineage-21.0-20240220-UNOFFICIAL-mido.zip",
+      "id": "fbfd8754d2654a2529396ab722e053f07f9b4317eaf3edf3094aa5fd369ad045",
+      "romtype": "unofficial",
+      "size": 947388634,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-21.0-20240220-UNOFFICIAL-mido.zip",
+      "version": "20.0"
+    }
+  ]
+}
