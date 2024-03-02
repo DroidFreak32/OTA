@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1709308676,
-      "filename": "lineage-21.0-20240301-UNOFFICIAL-kebab.zip",
-      "id": "d8f1c5bc5c5ac0cc54202daca76ddee73826357c2e5607fecd51140667a5e5a7",
+      "datetime": 1709362376,
+      "filename": "lineage-21.0-20240302-UNOFFICIAL-kebab.zip",
+      "id": "073ea9cdd1bf870d972a3f4c3ba9e7bfe3add82eec5db28a4c12d2079bc76ed8",
       "romtype": "unofficial",
-      "size": 1182224642,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-21.0-20240301-UNOFFICIAL-kebab.zip",
+      "size": 1182282721,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-21.0-20240302-UNOFFICIAL-kebab.zip",
       "version": "21.0"
     }
   ]
