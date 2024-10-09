@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1728434214,
-      "filename": "lineage-21.0-20241008-UNOFFICIAL-shiba.zip",
-      "id": "27beea711a763222f6e6cf7e45d1bf292a1c8b3d5330317ad37a2c5a5afd10e3",
+      "datetime": 1728434450,
+      "filename": "lineage-21.0-20241009-UNOFFICIAL-shiba.zip",
+      "id": "e7c5c9bf76924b879eb9d9ee63fb7778e08afa4d1ac87e07cf336f246992ead1",
       "romtype": "unofficial",
-      "size": 1250197287,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-kebab/lineage-21.0-20240303-UNOFFICIAL-kebab.zip",
-      "version": "21.0"
+      "size": 1305209885,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-shiba/lineage-21.0-20241009-UNOFFICIAL-shiba.zip",
+      "version": "20.0"
     }
   ]
 }
