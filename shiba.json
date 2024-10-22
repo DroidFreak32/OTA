@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "datetime": 1729354948,
+      "datetime": 1729377560,
       "filename": "lineage-21.0-20241019-UNOFFICIAL-shiba.zip",
-      "id": "22e9d0764cb7e285c352914593323365296460cbfb8755d27cfa296b69f393f9",
+      "id": "be7b9f865e9c5c2778cd04737a0c2a1346417d90a6c7306ca9e0ae54a83f1976",
       "romtype": "unofficial",
-      "size": 1356043531,
+      "size": 1356043779,
       "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-shiba/lineage-21.0-20241019-UNOFFICIAL-shiba.zip",
       "version": "21.0"
     }

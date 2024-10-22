@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1728488040,
-      "filename": "lineage-21.0-20241009-UNOFFICIAL-miatoll.zip",
-      "id": "cf0b4ab86c2845d2b84416dd79133ec2d7db2f14224a7f74f1acfb9e97e5bca0",
+      "datetime": 1729611927,
+      "filename": "lineage-21.0-20241022-UNOFFICIAL-miatoll.zip",
+      "id": "0fdc87fc54def19609716d9fbe79374c325680c377afea139c0ffc8652176c36",
       "romtype": "unofficial",
-      "size": 1475288498,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-shiba/lineage-21.0-20241009-UNOFFICIAL-miatoll.zip",
+      "size": 1406772606,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-shiba/lineage-21.0-20241022-UNOFFICIAL-miatoll.zip",
       "version": "21.0"
     }
   ]
