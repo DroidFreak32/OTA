@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1729611927,
-      "filename": "lineage-21.0-20241022-UNOFFICIAL-miatoll.zip",
-      "id": "0fdc87fc54def19609716d9fbe79374c325680c377afea139c0ffc8652176c36",
+      "datetime": 1748591092,
+      "filename": "lineage-22.2-20250530-UNOFFICIAL-miatoll.zip",
+      "id": "73bbbfd683a4d8e9952aae0874097c5de9d9faf1ce32cd7015a2b8358d635588",
       "romtype": "unofficial",
-      "size": 1406772606,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-shiba/lineage-21.0-20241022-UNOFFICIAL-miatoll.zip",
-      "version": "21.0"
+      "size": 1332717775,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-caiman/lineage-22.2-20250530-UNOFFICIAL-miatoll.zip",
+      "version": "22.1"
     }
   ]
 }

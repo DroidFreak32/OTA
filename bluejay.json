@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1748580738,
+      "filename": "lineage-22.2-20250530-UNOFFICIAL-bluejay.zip",
+      "id": "a05abee58055a2c9b5f946ca2af49ae526ae09b4287947c19d55f5ee22c075a1",
+      "romtype": "unofficial",
+      "size": 1297961279,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-caiman/lineage-22.2-20250530-UNOFFICIAL-bluejay.zip",
+      "version": "22.1"
+    }
+  ]
+}
