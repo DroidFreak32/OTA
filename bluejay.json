@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1749251822,
-      "filename": "lineage-22.2-20250606-UNOFFICIAL-bluejay.zip",
-      "id": "0fb3ca7449eb88fab36a5c7d56d3d1bafeb0b68f76afec1ef0c4ba50c24ecd9f",
+      "datetime": 1749331428,
+      "filename": "lineage-22.2-20250607-UNOFFICIAL-bluejay.zip",
+      "id": "16c2003e79fa1aaec18bb8cd6a921d3b90e06a257c5ea345290e6d1e290d29f5",
       "romtype": "unofficial",
-      "size": 1370861715,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-bluejay/lineage-22.2-20250606-UNOFFICIAL-bluejay.zip",
+      "size": 1369576579,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-bluejay/lineage-22.2-20250607-UNOFFICIAL-bluejay.zip",
       "version": "22.2"
     }
   ]
