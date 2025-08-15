@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1748603865,
-      "filename": "lineage-22.1-20250530-UNOFFICIAL-caiman.zip",
-      "id": "5ee5d42126275f1815edba4c2583ab10726d4158db32b2100ec29c097f0a686c",
+      "datetime": 1755300195,
+      "filename": "lineage-22.2-20250815-UNOFFICIAL-caiman.zip",
+      "id": "6cdabf093c2fd839d0934fc7ac915b2a89b01cb0044853c3b848527e46941f91",
       "romtype": "unofficial",
-      "size": 1625422707,
-      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-caiman/lineage-22.1-20250530-UNOFFICIAL-caiman.zip",
-      "version": "22.1"
+      "size": 1726887666,
+      "url": "https://github.com/DroidFreak32/OTA/releases/download/lineage-caiman/lineage-22.2-20250815-UNOFFICIAL-caiman.zip",
+      "version": "22.2"
     }
   ]
 }
